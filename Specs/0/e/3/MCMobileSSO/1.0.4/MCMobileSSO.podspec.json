@@ -1,6 +1,7 @@
 {
   "name": "MCMobileSSO",
   "version": "1.0.4",
+  "swift_version": "3.3",
   "summary": "An SDK that handles SSO.",
   "homepage": "https://github.com/mediacorp/mediacorp-sso-ios",
   "authors": {

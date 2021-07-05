@@ -15,7 +15,7 @@
   "homepage": "http://datasync.orange.com",
   "source": {
     "type": "zip",
-    "http": "https://ios.webcom.orange-labs.fr/1.1.5/Webcom.framework.zip"
+    "http": "https://datasync.orange.com/repository/webcom-sdk-ios/1.1.5/resources/Webcom-1.1.5-Framework.zip"
   },
   "frameworks": [
     "CFNetwork",

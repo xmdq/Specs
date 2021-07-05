@@ -1,35 +1,37 @@
 {
   "name": "AlipaySDK-iOS",
   "version": "0.0.1",
-  "summary": "AlipaySDk for iOS v15.2.1",
-  "homepage": "https://github.com/bing900717/AlipaySDk",
-  "license": "MIT",
+  "summary": "支付宝官方SDK",
+  "homepage": "https://open.alipay.com/platform/home.htm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "xiaobing.yao": "bing900717@gmail.com"
+    "shanjia": "shanjia.gxd@antfin.com"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
   "source": {
-    "git": "https://github.com/bing900717/AlipaySDk.git",
-    "tag": "0.0.1"
+    "http": "https://gw.alipayobjects.com/os/basement_prod/13c286df-dbf9-420b-8121-1c75b4519c03.zip"
   },
-  "resources": "AlipaySDk/AlipaySDK.bundle",
+  "vendored_frameworks": "AlipaySDK.framework",
+  "resources": "AlipaySDK.bundle",
   "frameworks": [
-    "Foundation",
     "UIKit",
-    "SystemConfiguration",
-    "CoreTelephony",
-    "QuartzCore",
-    "CoreText",
-    "CoreGraphics",
+    "Foundation",
     "CFNetwork",
-    "CoreMotion"
+    "SystemConfiguration",
+    "QuartzCore",
+    "CoreGraphics",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreText",
+    "WebKit"
   ],
   "libraries": [
-    "z",
-    "c++"
-  ],
-  "requires_arc": true,
-  "vendored_frameworks": "AlipaySDK/AlipaySDK.framework"
+    "c++",
+    "z"
+  ]
 }

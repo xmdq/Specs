@@ -1,15 +1,16 @@
 {
   "name": "HSBPageView",
   "version": "0.0.1",
-  "summary": "ScrollView Paging.",
-  "description": "HSBPageViewObjc provides simple paging scrollview.",
+  "summary": "HSBPageView is Paging View.",
+  "swift_version": "4.2",
+  "description": "HSBPageView simple Paging View. support delegate and datasource.",
   "homepage": "https://github.com/hsb9kr/HSBPageView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Hong Sangbo": "hsb9kr@gmail.com"
+    "Red": "hsb9kr@gmail.com"
   },
   "source": {
     "git": "https://github.com/hsb9kr/HSBPageView.git",
@@ -19,5 +20,5 @@
     "ios": "8.0"
   },
   "source_files": "HSBPageView/Classes/*.swift",
-  "pushed_with_swift_version": "3.2"
+  "frameworks": "UIKit"
 }

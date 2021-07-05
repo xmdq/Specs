@@ -14,7 +14,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://www.dropbox.com/s/afpm27620vqfgi3/opencv-contrib-3.4.1-ios-framework.zip?dl=0"
+    "http": "https://gitlab.com/John1261/libopencv-contrib/-/raw/master/opencv-contrib-3.4.1-ios-framework.zip"
   },
   "source_files": "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}",
   "public_header_files": "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}",
@@ -34,5 +34,8 @@
     "Foundation",
     "QuartzCore",
     "UIKit"
-  ]
+  ],
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }
