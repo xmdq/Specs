@@ -9,7 +9,8 @@
     "file": "LICENSE"
   },
   "authors": {
-    "maligh": "455080311@qq.com"
+    "maligh": "455080311@qq.com",
+    "culeo": "1823280359@qq.com"
   },
   "source": {
     "git": "https://github.com/SlashDevelopers/SDTheme.git",
@@ -18,6 +19,23 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SDTheme/Classes/**/*",
-  "public_header_files": "SDTheme/Classes/**/*.h"
+  "source_files": "SDTheme/Classes/SDTheme.h",
+  "public_header_files": "SDTheme/Classes/SDTheme.h",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "SDTheme/Classes/Core/*.{m,h}",
+      "public_header_files": "SDTheme/Classes/Core/*.h"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "SDTheme/Classes/UIKit/*.{m,h}",
+      "public_header_files": "SDTheme/Classes/UIKit/*.h",
+      "dependencies": {
+        "SDTheme/Core": [
+
+        ]
+      }
+    }
+  ]
 }

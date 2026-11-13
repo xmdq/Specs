@@ -1,0 +1,36 @@
+{
+  "name": "AmSemnatSDK",
+  "version": "0.1.0",
+  "summary": "Read and PAdES-sign with Romanian CEI eID cards over NFC.",
+  "description": "Romania-first iOS SDK for reading MRZ + photo + eDATA and for producing\nPAdES B-B signatures with Romanian Electronic Identity Cards (CEI) over\nNFC. Public surface is locked in lockstep with the Android, Expo, and\nNode verifier siblings — see https://github.com/am-semnat for the\numbrella repos.\n\nWraps a vendored fork of AndyQ/NFCPassportReader (MIT) with CAN-based\nPACE support and a Romanian eDATA + signing applet driver. Consumers do\nnot interact with the underlying fork — the public API is\n`AmSemnat.readIdentity(can:pin1:)`, `AmSemnat.sign(can:pin2:pdfHash:signingTime:)`,\nand `AmSemnat.verifyPassiveOffline(rawSod:dataGroups:trustAnchors:)`.",
+  "homepage": "https://github.com/am-semnat/am-semnat-ios-sdk",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "am-semnat contributors": "https://github.com/am-semnat"
+  },
+  "source": {
+    "git": "https://github.com/am-semnat/am-semnat-ios-sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Sources/AmSemnat/**/*.swift",
+  "dependencies": {
+    "OpenSSL-Universal": [
+      "~> 3.3"
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/AmSemnatTests/**/*.swift"
+    }
+  ],
+  "swift_version": "5.9"
+}

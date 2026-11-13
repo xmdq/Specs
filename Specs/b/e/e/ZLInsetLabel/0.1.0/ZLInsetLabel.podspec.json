@@ -1,0 +1,22 @@
+{
+  "name": "ZLInsetLabel",
+  "version": "0.1.0",
+  "summary": "A short description of ZLInsetLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FPJack/ZLInsetLabel.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanpeng": "peng.fan@ukelink.com"
+  },
+  "source": {
+    "git": "https://github.com/FPJack/ZLInsetLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZLInsetLabel/Classes/**/*"
+}

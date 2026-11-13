@@ -1,0 +1,25 @@
+{
+  "name": "Playgap",
+  "version": "5.2.2",
+  "summary": "Playgap iOS SDK",
+  "description": "Playgap allows you monetise your offline gameplay.",
+  "homepage": "https://playgap.io",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright 2026 Playgap Ltd. All rights reserved."
+  },
+  "authors": {
+    "Andrei": "andrei@playgap.io"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://github.com/playgap/ios-sdk/releases/download/5.2.2/Playgap.xcframework.zip",
+    "sha256": "d04fdb7ca3cecb4fca0e975b8453c1ec943099f7fe555ec3fa73157f1d4f64f4"
+  },
+  "ios": {
+    "vendored_frameworks": "Playgap.xcframework"
+  }
+}

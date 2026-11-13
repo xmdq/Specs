@@ -1,0 +1,42 @@
+{
+  "name": "EWOCPPSDK",
+  "version": "1.0.0",
+  "summary": "Eway OCPP Charging Station SDK.",
+  "description": "EWOCPPSDK is a powerful library for EV charging station management.",
+  "homepage": "https://github.com/kelijun/EWOCPPSDK",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright (c) 2026 Eway. All rights reserved. 商业授权，严禁反编译或未授权分发。"
+  },
+  "authors": {
+    "keli": "666@xilicun.com"
+  },
+  "source": {
+    "git": "https://github.com/kelijun/EWOCPPSDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "vendored_frameworks": "EWOCPPSDK.xcframework",
+  "dependencies": {
+    "EWBluetoothSDK": [
+      "~> 0.1.7"
+    ],
+    "MessagePacker": [
+      "~> 0.4.7"
+    ],
+    "CrcSwift": [
+      "~> 0.0.3"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "swift_version": "5.0"
+}

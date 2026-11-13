@@ -1,0 +1,40 @@
+{
+  "name": "ScribbleForgeUI",
+  "version": "0.1.1",
+  "summary": "UIKit UI components for ScribbleForge whiteboard.",
+  "description": "ScribbleForgeUI provides UIKit-based UI components for embedding the ScribbleForge\nwhiteboard and toolbar into client apps without modifying the core SDK.",
+  "homepage": "https://github.com/netless-io/scribbleforge-ios-ui",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright (c) 2026 Agora"
+  },
+  "authors": {
+    "Vince": "zjxuyunshi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/netless-io/scribbleforge-ios-ui.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "Sources/ScribbleForgeUI/**/*.{swift}",
+  "resource_bundles": {
+    "ScribbleForgeUI": [
+      "Sources/Resources/**/*.xcassets"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ScribbleForge": [
+      "~> 1.1.1"
+    ]
+  },
+  "swift_version": "5.0"
+}

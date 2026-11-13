@@ -1,0 +1,32 @@
+{
+  "name": "OKYC",
+  "version": "0.1.1",
+  "summary": "OKYC identity verification for iOS: the hosted KYC/KYB flow in a secure native wrapper.",
+  "description": "Presents the OKYC hosted verification flow in a hardened WKWebView: camera permission handling,\na navigation allowlist, protocol-v1 events and a typed result. Guide: https://docs.okyc.stream/mobile/ios",
+  "homepage": "https://docs.okyc.stream/mobile/ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "OKYC": "sdk@okyc.stream"
+  },
+  "source": {
+    "git": "https://github.com/okyc-team/okyc-ios.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": [
+    "5.9"
+  ],
+  "source_files": "Sources/OKYC/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "WebKit",
+    "AVFoundation",
+    "SwiftUI"
+  ],
+  "swift_version": "5.9"
+}

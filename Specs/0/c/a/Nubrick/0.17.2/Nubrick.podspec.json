@@ -1,0 +1,22 @@
+{
+  "name": "Nubrick",
+  "version": "0.17.2",
+  "summary": "Nubrick SDK for iOS",
+  "description": "Nubrick SDK for iOS.",
+  "homepage": "https://docs.nativebrik.com",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nubrick": "nubrick-support@plaid.co.jp"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "http": "https://github.com/plaidev/nubrick-ios/releases/download/v0.17.2/Nubrick.xcframework.zip",
+    "sha256": "41bbcb5bc1e0b3dc3e098245502311dfca95abb80bac8b801d3ba721152e905a"
+  },
+  "vendored_frameworks": "Nubrick.xcframework"
+}

@@ -1,0 +1,27 @@
+{
+  "source": {
+    "tag": "1.0.0",
+    "git": "https://github.com/jaiganesh6999/seowebchecker-seoaudit-sdk.git"
+  },
+  "summary": "Lightweight technical SEO audit client SDK for iOS, macOS, watchOS, and tvOS.",
+  "description": "Automated on-page technical SEO diagnostic engine and client SDK for meta tag validations, heading structure inspections, image accessibility checks, and Core Web Vitals diagnostics. Powered by SEOWebChecker (https://seowebchecker.com).",
+  "version": "1.0.0",
+  "platforms": {
+    "tvos": "13.0",
+    "ios": "13.0",
+    "osx": "10.15",
+    "watchos": "6.0"
+  },
+  "authors": {
+    "Rahul Gupta": "jaiganesh6999@gmail.com"
+  },
+  "name": "SeoWebChecker",
+  "homepage": "https://seowebchecker.com",
+  "frameworks": "Foundation",
+  "source_files": "swift/Sources/SeoWebChecker/**/*.swift",
+  "license": {
+    "file": "LICENSE",
+    "type": "MIT"
+  },
+  "swift_version": "5.0"
+}

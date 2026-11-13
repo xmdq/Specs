@@ -1,0 +1,74 @@
+{
+  "name": "TwinPushSDK",
+  "version": "4.1.2",
+  "summary": "TwinPush SDK is the official open source SDK for the TwinPush iOS and Android notification platform",
+  "homepage": "http://twinpush.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TwinCoders": "info@twincoders.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/TwinPush/ios-sdk.git",
+    "tag": "v4.1.2"
+  },
+  "source_files": "TwinPushSDK/**/*.{h,m}",
+  "public_header_files": [
+    "TwinPushSDK/Classes/Communications/Requests/TPBaseRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TPRESTJSONRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TPRESTRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TPRequestParam.h",
+    "TwinPushSDK/Classes/Communications/Requests/TPTwinPushRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinForms/TPTwinFormsRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPDeleteNotificationRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPGetAliasNotificationsRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPGetApplicationBadgeRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPGetDeviceNotificationsRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPGetNotificationWithIdRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPInboxSummaryRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPUpdateBadgeRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Notifications/TPUserOpenNotificationRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Properties/TPClearCustomPropertiesRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Properties/TPSetCustomPropertyRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Statistics/TPCloseAppRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Statistics/TPOpenAppRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/Statistics/TPReportStatisticsRequest.h",
+    "TwinPushSDK/Classes/Communications/Requests/TwinPush/TPCreateDeviceRequest.h",
+    "TwinPushSDK/Classes/Communications/TPRequestFactory.h",
+    "TwinPushSDK/Classes/Communications/TPRequestLauncher.h",
+    "TwinPushSDK/Classes/Entities/TPDevice.h",
+    "TwinPushSDK/Classes/Entities/TPInboxNotification.h",
+    "TwinPushSDK/Classes/Entities/TPInboxSummary.h",
+    "TwinPushSDK/Classes/Entities/TPNotification.h",
+    "TwinPushSDK/Classes/Entities/TPNotificationsFilters.h",
+    "TwinPushSDK/Classes/Entities/TPNotificationsPagination.h",
+    "TwinPushSDK/Classes/Entities/TPRegisterInformation.h",
+    "TwinPushSDK/Classes/Forms/TwinFormsManager.h",
+    "TwinPushSDK/Classes/TwinPushManager.h",
+    "TwinPushSDK/Classes/Utils/NSDictionary+ArrayForKey.h",
+    "TwinPushSDK/Classes/Utils/UIImage+UIBarButtonItem.h",
+    "TwinPushSDK/ViewControllers/Detail/TPNotificationDetailViewController.h",
+    "TwinPushSDK/ViewControllers/Inbox/TPAliasInboxViewController.h",
+    "TwinPushSDK/ViewControllers/Inbox/TPInboxCell.h",
+    "TwinPushSDK/ViewControllers/Inbox/TPLoadingCell.h",
+    "TwinPushSDK/ViewControllers/Inbox/TPNoResultsCell.h",
+    "TwinPushSDK/ViewControllers/Inbox/TPNotificationsInboxViewController.h"
+  ],
+  "private_header_files": "TwinPushSDK/Classes/Communications/Pinning/*.h",
+  "frameworks": [
+    "MobileCoreServices",
+    "CFNetwork",
+    "SystemConfiguration",
+    "CoreLocation",
+    "Security",
+    "WebKit"
+  ],
+  "libraries": "z",
+  "requires_arc": true,
+  "prefix_header_contents": "#import <Foundation/Foundation.h>\n\n#define TCLog(...) do {} while (0)\n#define TCAssert(_condition_, ...) do {} while (0)\n#define TCAssertNilOrConformsToProtocol(OBJ,PROT) do {} while (0)\n#define TCAssertNilOrIsKindOfClass(OBJ,CLASS) do {} while (0)\n#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)\n#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)\n#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)\n#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)\n#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)\n#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)\n\n#define LOCALIZATION_TABLE @\"TwinPushSDK\""
+}

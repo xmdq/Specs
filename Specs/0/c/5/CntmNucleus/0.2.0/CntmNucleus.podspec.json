@@ -1,0 +1,32 @@
+{
+  "name": "CntmNucleus",
+  "version": "0.2.0",
+  "summary": "Nucleus authentication SDK for iOS.",
+  "homepage": "https://github.com/cntm-labs/nucleus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cntm-labs": "dev@cntm-labs.dev"
+  },
+  "source": {
+    "git": "https://github.com/cntm-labs/nucleus.git",
+    "tag": "CntmNucleus-v0.2.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "sdks/swift/Sources/NucleusSwift/**/*.swift",
+  "frameworks": [
+    "Foundation",
+    "Security"
+  ],
+  "weak_frameworks": [
+    "SwiftUI",
+    "Combine",
+    "AuthenticationServices"
+  ],
+  "swift_version": "5.9"
+}

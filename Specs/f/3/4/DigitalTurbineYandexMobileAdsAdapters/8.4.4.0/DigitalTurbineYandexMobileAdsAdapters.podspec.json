@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "Fyber_Marketplace_SDK": [
+      "~> 8.4.4"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "DigitalTurbineYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "DigitalTurbineYandexMobileAdsAdapters.xcframework",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "public_header_files": [
+    "DigitalTurbineYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/DigitalTurbineYandexMobileAdsAdapters/8.4.4.0/cocoapods/c6d02ce5-4de3-4f27-a1a8-9f2854dff7a3.zip",
+    "sha256": "8928e2c9435237638b8397947b63011831bc48eebbaf86a7d156302944776b5f"
+  },
+  "source_files": [
+    "DigitalTurbineYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "DigitalTurbine adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "DigitalTurbineYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "8.4.4.0",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MMTToolForXCGLog",
+  "version": "0.1.6",
+  "summary": "XCG Log Extension Tool",
+  "description": "A custom tool extension for XCGLogger that provides additional logging functionality and features to enhance your logging experience in Swift applications.",
+  "homepage": "https://github.com/NealWills/MMTToolForXCGLog.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Donghn": "Donghn@maxeye.com"
+  },
+  "source": {
+    "git": "https://github.com/NealWills/MMTToolForXCGLog.git",
+    "tag": "0.1.6"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MMTToolForXCGLog/Classes/**/*",
+  "resources": "MMTToolForXCGLog/PrivacyInfo.xcprivacy",
+  "dependencies": {
+    "ObjcExceptionBridging": [
+      "~> 7.1.5"
+    ]
+  }
+}

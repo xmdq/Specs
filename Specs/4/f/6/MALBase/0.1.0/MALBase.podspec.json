@@ -18,10 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MALBase/Classes/**/*",
-  "resource_bundles": {
-    "Paths": [
-      "MALBase/Assets/Paths"
-    ]
-  }
+  "subspecs": [
+    {
+      "name": "Paths",
+      "source_files": "MALBase/Classes/Paths"
+    },
+    {
+      "name": "Category",
+      "source_files": "MALBase/Classes/Category"
+    }
+  ]
 }

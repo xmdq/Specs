@@ -16,7 +16,7 @@
     "tag": "v0.1.4"
   },
   "platforms": {
-    "ios": "",
+    "ios": "11.0",
     "osx": "",
     "watchos": "",
     "tvos": ""

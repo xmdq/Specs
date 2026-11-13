@@ -1,0 +1,28 @@
+{
+  "name": "BFPushNotificationKit",
+  "version": "0.1.1",
+  "summary": "Readable, reusable push routing kit for iOS apps.",
+  "description": "BFPushNotificationKit provides a small, readable push framework for iOS apps.\nIt parses payloads, supports scene registration, and leaves app-specific routing\nin the host application.",
+  "homepage": "https://gitee.com/bfchen/bfpush-notification-kit",
+  "license": {
+    "type": "MIT",
+    "text": "MIT"
+  },
+  "authors": {
+    "Bfchen": "2946779829@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/bfchen/bfpush-notification-kit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "requires_arc": true,
+  "static_framework": true,
+  "source_files": "Sources/BFPushNotificationKit/**/*.swift",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ZegoExpressPrivate",
+  "version": "3.23.2.49138",
+  "summary": "Zego Express SDK (Private library for special use)",
+  "description": "Zego Express SDK (Private library for special use)",
+  "homepage": "https://www.zego.im/en",
+  "documentation_url": "https://doc-en.zego.im",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright © 2016-2023 ZEGO. All Rights Reserved.\n"
+  },
+  "authors": {
+    "ZEGO": "zego.im"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://cocoapods.zego.im/downloads/CocoaPods/ZegoExpressPrivate/ZegoExpressPrivate-3.23.2.49138.zip",
+    "sha1": "7b6009c5e7a657d918701a961ea17c8b866bb811"
+  },
+  "default_subspecs": "Default",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "subspecs": [
+    {
+      "name": "Default",
+      "ios": {
+        "vendored_frameworks": "iOS/*.xcframework"
+      }
+    }
+  ]
+}

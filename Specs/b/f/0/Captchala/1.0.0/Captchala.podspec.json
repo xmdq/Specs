@@ -1,0 +1,30 @@
+{
+  "name": "Captchala",
+  "version": "1.0.0",
+  "summary": "Captchala SDK for iOS, macOS, and Mac Catalyst.",
+  "description": "Captchala SDK — risk-driven captcha verification with native UI.\nSingle binary for iOS, native macOS, and Mac Catalyst.",
+  "homepage": "https://captcha.la",
+  "documentation_url": "https://captcha.la/docs/sdk/ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Captchala": "support@captcha.la"
+  },
+  "source": {
+    "http": "https://pkg.captcha-pkg.net/ios/Captchala-1.0.0.zip",
+    "sha256": "0a2c175a8e34271e6ec6b1648d0f9e1d231b9c80c536b2e1243e9550d04491be"
+  },
+  "platforms": {
+    "ios": "13.0",
+    "osx": "11.0"
+  },
+  "swift_versions": "5.9",
+  "vendored_frameworks": "Captchala.xcframework",
+  "resources": [
+    "Captchala.bundle"
+  ],
+  "frameworks": "WebKit",
+  "swift_version": "5.9"
+}

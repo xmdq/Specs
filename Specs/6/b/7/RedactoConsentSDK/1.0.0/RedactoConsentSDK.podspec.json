@@ -1,0 +1,26 @@
+{
+  "name": "RedactoConsentSDK",
+  "version": "1.0.0",
+  "summary": "Redacto Consent SDK for iOS.",
+  "description": "Native Swift SDK for rendering and submitting user consent with Redacto CMP.",
+  "homepage": "https://github.com/redactolabs/consent-sdk-ios",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Redacto": "support@redacto.io"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": [
+    "5.9"
+  ],
+  "source": {
+    "git": "https://github.com/redactolabs/consent-sdk-ios.git",
+    "tag": "v1.0.0"
+  },
+  "source_files": "Sources/RedactoConsentSDK/**/*.{swift}",
+  "swift_version": "5.9"
+}

@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "GoogleUserMessagingPlatform": [
+      "~> 3.1.0"
+    ],
+    "YandexMobileAds": [
+      "8.6.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "YandexMobileAdsConsentManagement",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "README.md",
+    "YandexMobileAdsConsentManagement.xcframework"
+  ],
+  "public_header_files": [
+    "YandexMobileAdsConsentManagement.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/YandexMobileAdsConsentManagement/1.20.0/cocoapods/8854033e-9871-491d-b38f-c540aead7497.zip",
+    "sha256": "3e6b4ffc249fd94df1ca5a99f9cf36f17b9820e08aafdd611dc7d8b35738995b"
+  },
+  "source_files": [
+    "YandexMobileAdsConsentManagement.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "The Yandex Mobile Ads Consent Management SDK provides a privacy and messaging tool to help you manage privacy choices",
+  "vendored_frameworks": [
+    "YandexMobileAdsConsentManagement.xcframework"
+  ],
+  "version": "1.20.0",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

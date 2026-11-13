@@ -1,0 +1,68 @@
+{
+  "name": "mParticle-AppsFlyer",
+  "version": "8.4.7",
+  "summary": "AppsFlyer integration for mParticle",
+  "description": "This is the AppsFlyer integration for mParticle.",
+  "homepage": "https://www.mparticle.com",
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mParticle": "support@mparticle.com"
+  },
+  "source": {
+    "git": "https://github.com/mparticle-integrations/mparticle-apple-integration-appsflyer.git",
+    "tag": "v8.4.7"
+  },
+  "social_media_url": "https://twitter.com/mparticle",
+  "swift_versions": [
+    "5.3"
+  ],
+  "static_framework": true,
+  "platforms": {
+    "ios": "12.0"
+  },
+  "default_subspecs": "Standard",
+  "subspecs": [
+    {
+      "name": "Standard",
+      "ios": {
+        "source_files": "Sources/**/*.{h,m,mm}",
+        "resource_bundles": {
+          "mParticle-AppsFlyer-Privacy": [
+            "Sources/mParticle-AppsFlyer/PrivacyInfo.xcprivacy"
+          ]
+        },
+        "dependencies": {
+          "AppsFlyerFramework": [
+            "~> 6.16"
+          ],
+          "mParticle-Apple-SDK/mParticle": [
+            "~> 8.19"
+          ]
+        }
+      }
+    },
+    {
+      "name": "NoLocation",
+      "ios": {
+        "source_files": "Sources/**/*.{h,m,mm}",
+        "resource_bundles": {
+          "mParticle-AppsFlyer-Privacy": [
+            "Sources/mParticle-AppsFlyer/PrivacyInfo.xcprivacy"
+          ]
+        },
+        "dependencies": {
+          "AppsFlyerFramework": [
+            "~> 6.16"
+          ],
+          "mParticle-Apple-SDK/mParticleNoLocation": [
+            "~> 8.19"
+          ]
+        }
+      }
+    }
+  ],
+  "swift_version": "5.3"
+}

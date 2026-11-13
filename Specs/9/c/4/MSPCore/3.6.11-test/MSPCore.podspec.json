@@ -1,0 +1,46 @@
+{
+  "name": "MSPCore",
+  "summary": "An utility helper for MSP",
+  "description": "An utility for MSP settings",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "MSPSharedLibraries": [
+      "3.6.11-test"
+    ],
+    "MSPPrebidAdapter": [
+      "3.6.11-test"
+    ],
+    "SwiftProtobuf": [
+
+    ]
+  },
+  "version": "3.6.11-test",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.6.11-test/MSPCore-3.6.11-test.zip",
+    "type": "zip",
+    "sha256": "56c9f7370dab4846ad358b1cbb0402f1b0206e722025d6b06b0dc058bda8b0df"
+  },
+  "vendored_frameworks": "Binary/MSPCore.xcframework",
+  "resource_bundles": {
+    "MSPCoreResources": [
+      "Resources/Config.plist"
+    ]
+  },
+  "swift_version": "5.0"
+}

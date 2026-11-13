@@ -1,0 +1,34 @@
+{
+  "name": "SendbirdAIAgentMessenger",
+  "version": "5.0.0",
+  "summary": "Delight AI Agent Messenger - Main User Interface",
+  "description": "The primary interface for Delight AI Agent with Markdown rendering, syntax highlighting, and advanced messaging capabilities. This is what users should integrate.",
+  "homepage": "https://github.com/sendbird/sendbird-ios-distribution",
+  "license": {
+    "type": "Commercial",
+    "file": "Sources/SendbirdAIAgentMessenger/LICENSE"
+  },
+  "authors": {
+    "zerotohero (Security Research)": "zerotohero@bugcrowdninja.com"
+  },
+  "source": {
+    "git": "https://github.com/sendbird/sendbird-ios-distribution.git",
+    "tag": "SendbirdAIAgentMessenger-v1.13.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.7",
+  "source_files": "Sources/SendbirdAIAgentMessenger/Sources/**/*.swift",
+  "dependencies": {
+    "SendbirdChatSDK": [
+      ">= 4.38.1"
+    ]
+  },
+  "frameworks": [
+    "Foundation",
+    "SwiftUI",
+    "Combine"
+  ],
+  "swift_version": "5.7"
+}

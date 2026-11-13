@@ -1,0 +1,22 @@
+{
+  "name": "MMTToolForFlareIAP",
+  "version": "0.1.2",
+  "summary": "A convenient wrapper and packaging tool for Flare IAP",
+  "description": "MMTToolForFlareIAP 是 Flare IAP 库的上层封装和打包工具。提供了更简洁易用的 API 接口和完整的打包方案，\n便于在 MMT 项目中快速集成应用内购买功能。该库基于 Flare 框架构建，提供了开箱即用的 IAP 解决方案。",
+  "homepage": "https://github.com/Donghn/MMTToolForFlareIAP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Donghn": "Donghn@maxeye.com"
+  },
+  "source": {
+    "git": "https://github.com/NealWills/MMTToolForFlareIAP.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MMTToolForFlareIAP/Classes/**/*"
+}

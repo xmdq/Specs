@@ -1,0 +1,22 @@
+{
+  "name": "CLYHLibrary",
+  "version": "0.0.2",
+  "summary": "A short description of CLYHLibrary.",
+  "description": "日志打印",
+  "homepage": "http://EXAMPLE/CLYHLibrary",
+  "license": "MIT",
+  "authors": {
+    "cihui": "wucihui@253.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://github.com/253CL/IOS-DEMO-CESHI.git",
+    "tag": "0.0.2"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/*.{h,m}"
+  ]
+}

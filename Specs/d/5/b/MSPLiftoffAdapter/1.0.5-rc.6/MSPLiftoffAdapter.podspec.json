@@ -1,0 +1,44 @@
+{
+  "name": "MSPLiftoffAdapter",
+  "summary": "an adapter for Liftoff SDK",
+  "description": "an adapter for Liftoff SDK",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "Mingming Luo": "mingming.luo@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "VALID_ARCHS": "x86_64 armv7 arm64",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "VungleAds": [
+      "~> 7.6"
+    ],
+    "MSPSharedLibraries": [
+      "1.0.5-rc.6"
+    ],
+    "MSPiOSCore": [
+      "1.0.5-rc.6"
+    ]
+  },
+  "version": "1.0.5-rc.6",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/1.0.5-rc.6/MSPLiftoffAdapter-1.0.5-rc.6.zip",
+    "type": "zip",
+    "sha256": "927da94b31c69b4c7b7b606650e3eddd3ba4e1eb5958c2c50db79a9a16a4f8e6"
+  },
+  "vendored_frameworks": "Binary/MSPLiftoffAdapter.xcframework",
+  "swift_version": "5.0"
+}

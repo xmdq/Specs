@@ -1,0 +1,29 @@
+{
+  "name": "CCBIFPaySDK",
+  "version": "1.0.4",
+  "summary": "建行 SDK",
+  "description": "建行 SDK。",
+  "homepage": "https://hehuoya.com",
+  "license": {
+    "type": "COMMERCIAL",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hehuoya": "1211054926@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/lichanghong/CCBIFPaySDK.git",
+    "tag": "1.0.4"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "CCBIFPaySDK.framework",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

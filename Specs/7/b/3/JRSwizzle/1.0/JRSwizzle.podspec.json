@@ -14,5 +14,11 @@
   "description": "JRSwizzle is source code package that offers a single, easy, correct+consistent interface for exchanging Objective-C method implementations (\"method swizzling\") across many versions of Mac OS X, iOS, Objective-C and runtime architectures.",
   "source_files": "*.{h,m}",
   "frameworks": "Foundation",
-  "requires_arc": true
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
 }

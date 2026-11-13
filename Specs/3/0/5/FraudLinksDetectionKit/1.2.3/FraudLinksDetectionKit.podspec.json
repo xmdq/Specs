@@ -1,0 +1,28 @@
+{
+  "name": "FraudLinksDetectionKit",
+  "version": "1.2.3",
+  "summary": "AI-powered URL fraud detection SDK for iOS",
+  "description": "FraudLinksDetectionKit provides AI-powered URL fraud detection:\n- URL and domain analysis via REST API\n- AI-powered threat intelligence\n- Malicious link detection\n- Comprehensive risk scoring\n- Privacy-focused detection",
+  "homepage": "https://github.com/Rayatkhan690/FraudLinksDetectionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rayat Khan": "rayatkhan690@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rayatkhan690/FraudLinksDetectionKit.git",
+    "tag": "1.2.3"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "FraudLinksDetectionKit/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "swift_version": "5.0"
+}

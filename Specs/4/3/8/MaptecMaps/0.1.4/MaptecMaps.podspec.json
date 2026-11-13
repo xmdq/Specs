@@ -1,0 +1,25 @@
+{
+  "name": "MaptecMaps",
+  "version": "0.1.4",
+  "summary": "Maptec Maps services for iOS.",
+  "homepage": "https://www.maptec.com",
+  "authors": {
+    "MaptecMaps Team": "dev@maptec.com"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "http": "https://packages.maptec.com/ios/maps/0.1.4/MaptecMaps.xcframework.zip",
+    "sha256": "2715fdf88f32d4e07b2fef15914b32694445525240f51fb5abd82728fa1e11b6"
+  },
+  "vendored_frameworks": "MaptecMapsKit.xcframework",
+  "dependencies": {
+    "MaptecFoundation": [
+      "0.1.4"
+    ]
+  }
+}

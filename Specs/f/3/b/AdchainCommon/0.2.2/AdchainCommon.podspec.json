@@ -1,0 +1,30 @@
+{
+  "name": "AdchainCommon",
+  "version": "0.2.2",
+  "summary": "AdChain Common iOS - Shared types for AdChain SSP SDK",
+  "description": "Shared types and protocols for AdChain SSP SDK:\n- AdchainSspBridgeProtocol\n- SspAdCallback\n- SspAdError\n- SspAdType",
+  "homepage": "https://github.com/1selfworld-labs/adchain-sdk-common-ios-release",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1selfworld-labs": "chocosprite21@gmail.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "git": "https://github.com/1selfworld-labs/adchain-sdk-common-ios-release.git",
+    "tag": "v0.2.2"
+  },
+  "vendored_frameworks": "AdchainCommon.xcframework",
+  "frameworks": "Foundation",
+  "swift_versions": "5.5",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.5",
+    "ENABLE_BITCODE": "NO"
+  },
+  "swift_version": "5.5"
+}

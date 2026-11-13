@@ -1,0 +1,85 @@
+{
+  "name": "Sparkling",
+  "version": "2.1.0-rc.18",
+  "summary": "iOS SDK for Sparkling Framework",
+  "description": "Main iOS framework for Sparkling, including app container, services, and Lynx integration.",
+  "license": "Apache 2.0",
+  "authors": "junchen.ge",
+  "homepage": "https://github.com/tiktok/sparkling.git",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.10",
+  "source": {
+    "http": "https://github.com/tiktok/sparkling/releases/download/2.1.0-rc.18/Sparkling-2.1.0-rc.18.zip"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "SWIFT_COMPILATION_MODE": "wholemodule",
+    "OTHER_SWIFT_FLAGS": "-enable-experimental-feature SymbolLinkageMarkers"
+  },
+  "subspecs": [
+    {
+      "name": "Application",
+      "source_files": "Sources/Application/**/*.{swift,m,h}",
+      "dependencies": {
+        "Sparkling/Service": [
+
+        ],
+        "Sparkling/Utils": [
+
+        ],
+        "SparklingMethod/Core": [
+          "2.1.0-rc.18"
+        ],
+        "SnapKit": [
+
+        ]
+      },
+      "resource_bundles": {
+        "sparklingPageResource": "Sources/Application/Container/UI/SparklingPageResource.xcassets"
+      }
+    },
+    {
+      "name": "Service",
+      "source_files": "Sources/Service/{Base,Protocols}/**/*.{swift,m,h}",
+      "dependencies": {
+        "Sparkling/Utils": [
+
+        ],
+        "SparklingMethod/Core": [
+          "2.1.0-rc.18"
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "LynxService",
+          "dependencies": {
+            "Lynx/Framework": [
+              "3.6.0"
+            ],
+            "LynxBase/Framework": [
+              "3.6.0"
+            ],
+            "LynxServiceAPI": [
+              "3.6.0"
+            ],
+            "SparklingMethod/Lynx": [
+              "2.1.0-rc.18"
+            ]
+          },
+          "source_files": [
+            "Sources/Service/{Base,Protocols}/**/*.{swift,m,h}",
+            "Sources/Service/LynxService/**/*.{swift,m,h}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Utils",
+      "source_files": "Sources/Utils/**/*.{swift,m,h}"
+    }
+  ],
+  "swift_version": "5.10"
+}

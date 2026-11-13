@@ -1,0 +1,24 @@
+{
+  "name": "NewPapayaSDK",
+  "version": "0.1.2",
+  "summary": "Internal SDK for NewPapayaGetServers.",
+  "description": "Private SDK that provides NewPapayaGetServers for internal use.",
+  "homepage": "https://github.com/jin-peng",
+  "license": {
+    "type": "Proprietary"
+  },
+  "authors": {
+    "Papaya": "ger0ger@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/jin-peng/fryPost.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Classes/**/*.{swift}",
+  "requires_arc": true,
+  "swift_version": "5.0"
+}

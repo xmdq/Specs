@@ -1,0 +1,39 @@
+{
+  "name": "JAPinView",
+  "version": "1.0.0",
+  "summary": "A lightweight, fully configurable PIN / OTP entry view for iOS, written in Swift.",
+  "description": "JAPinView is a production-ready PIN and OTP input field for iOS.\nDrop it in, set a configuration, and get:\n  - 5 built-in styles: boxed, underlined, rounded, filled, and fully custom\n  - Per-state theming with independent colours for empty, focused, filled, error, and disabled states\n  - Async validation with automatic loading, success, and failure handling\n  - Configurable animations: scale, bounce, fade, shake or none — per event\n  - Blinking cursor on the active cell\n  - Secure entry with any masking symbol\n  - SMS AutoFill via textContentType = .oneTimeCode\n  - Full VoiceOver support with per-cell labels and live announcements\n  - Dynamic Type and Reduce Motion support\n  - Zero dependencies — pure UIKit",
+  "homepage": "https://github.com/JayachandraA/JAPinView",
+  "screenshots": [
+    "https://raw.githubusercontent.com/JayachandraA/JAPinView/master/Examples/example1.png",
+    "https://raw.githubusercontent.com/JayachandraA/JAPinView/master/Examples/example2.png",
+    "https://raw.githubusercontent.com/JayachandraA/JAPinView/master/Examples/example3.png",
+    "https://raw.githubusercontent.com/JayachandraA/JAPinView/master/Examples/example4.png",
+    "https://raw.githubusercontent.com/JayachandraA/JAPinView/master/Examples/example5.png"
+  ],
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jayachandra Agraharam": "ajchandra15@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JayachandraA/JAPinView.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://github.com/JayachandraA",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": [
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10"
+  ],
+  "source_files": "Sources/JAPinView/**/*.{swift}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "swift_version": "5.10"
+}

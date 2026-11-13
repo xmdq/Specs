@@ -1,0 +1,43 @@
+{
+  "name": "MSPFacebookAdapter",
+  "summary": "an adapter for Meta SDK",
+  "description": "an adapter for Meta SDK for MSP S2S",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "FBAudienceNetwork": [
+      ">= 6.15",
+      "< 6.21"
+    ],
+    "MSPSharedLibraries": [
+      "3.1.7"
+    ],
+    "MSPiOSCore": [
+      "3.1.7"
+    ]
+  },
+  "version": "3.1.7",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.1.7/MSPFacebookAdapter-3.1.7.zip",
+    "type": "zip",
+    "sha256": "46aad1f4fb253195da26af05b56a668bc9f3b677c48e0e25d68a2a074bb3a1f0"
+  },
+  "vendored_frameworks": "Binary/MSPFacebookAdapter.xcframework",
+  "swift_version": "5.0"
+}

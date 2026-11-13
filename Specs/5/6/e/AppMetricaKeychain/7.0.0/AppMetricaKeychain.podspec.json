@@ -1,0 +1,49 @@
+{
+  "name": "AppMetricaKeychain",
+  "version": "7.0.0",
+  "summary": "Provides utilites for working with the keychain",
+  "homepage": "https://appmetrica.io",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AppMetrica": "admin@appmetrica.io"
+  },
+  "source": {
+    "git": "https://github.com/appmetrica/appmetrica-sdk-ios.git",
+    "tag": "7.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "6.0"
+  ],
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AppMetricaLog": [
+      "= 7.0.0"
+    ],
+    "AppMetricaStorageUtils": [
+      "= 7.0.0"
+    ],
+    "AppMetricaCoreUtils": [
+      "= 7.0.0"
+    ]
+  },
+  "header_dir": "AppMetricaKeychain",
+  "source_files": [
+    "AppMetricaKeychain/Sources/**/*.{h,m}"
+  ],
+  "public_header_files": "AppMetricaKeychain/Sources/include/**/*.h",
+  "resource_bundles": {
+    "AppMetricaKeychain": "AppMetricaKeychain/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
+  "swift_version": "6.0"
+}

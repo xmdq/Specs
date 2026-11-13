@@ -1,0 +1,66 @@
+{
+  "name": "KBMOB",
+  "version": "1.0.0",
+  "summary": "KBMOB Ads SDK",
+  "description": "KBMOB Ads SDK Binary",
+  "homepage": "https://github.com/iOSorPython/KBMOB",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "iOSorPython": "forpenta@163.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/iOSorPython/KBMOB",
+    "tag": "1.0.0"
+  },
+  "vendored_frameworks": "KBMOB.framework",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "AdSupport",
+    "StoreKit",
+    "AVFoundation",
+    "MediaPlayer",
+    "WebKit",
+    "CoreLocation"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9",
+    "sqlite3",
+    "c++",
+    "c++abi"
+  ],
+  "dependencies": {
+    "ToBid-iOS": [
+
+    ],
+    "ToBid-iOS/MintegralAdapter": [
+
+    ],
+    "ToBid-iOS/GDTAdapter": [
+
+    ],
+    "ToBid-iOS/BaiduAdapter": [
+
+    ],
+    "ToBid-iOS/KSAdapter": [
+
+    ],
+    "ToBid-iOS/TouTiaoAdapter": [
+
+    ],
+    "ToBid-iOS/CSJMediationAdapter": [
+
+    ]
+  },
+  "static_framework": true
+}

@@ -1,0 +1,48 @@
+{
+  "name": "AppMetricaPlatform",
+  "version": "7.0.0",
+  "summary": "AppMetricaPlatform offers essential tools for gathering platform and device information",
+  "homepage": "https://appmetrica.io",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AppMetrica": "admin@appmetrica.io"
+  },
+  "source": {
+    "git": "https://github.com/appmetrica/appmetrica-sdk-ios.git",
+    "tag": "7.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "6.0"
+  ],
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "Foundation",
+    "Security",
+    "UIKit"
+  ],
+  "dependencies": {
+    "AppMetricaLog": [
+      "= 7.0.0"
+    ],
+    "AppMetricaCoreUtils": [
+      "= 7.0.0"
+    ]
+  },
+  "header_dir": "AppMetricaPlatform",
+  "source_files": "AppMetricaPlatform/Sources/**/*.{h,m}",
+  "public_header_files": "AppMetricaPlatform/Sources/include/**/*.h",
+  "resource_bundles": {
+    "AppMetricaPlatform": "AppMetricaPlatform/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
+  "swift_version": "6.0"
+}

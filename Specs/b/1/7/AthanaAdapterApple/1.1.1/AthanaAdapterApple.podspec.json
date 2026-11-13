@@ -1,0 +1,29 @@
+{
+  "name": "AthanaAdapterApple",
+  "version": "1.1.1",
+  "summary": "Athana SDK - Adapter - Apple",
+  "homepage": "https://athana.inonesdk.com",
+  "authors": "CWJoy",
+  "source": {
+    "git": "https://github.com/AthanaSDK/Athana-SDK-iOS.git",
+    "tag": "1.1.1"
+  },
+  "license": {
+    "type": "CWJoy Software License Agreement",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Sources/AthanaAdapterApple/**/*.swift",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AthanaCore": [
+      "~> 1.1.1"
+    ]
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
+}

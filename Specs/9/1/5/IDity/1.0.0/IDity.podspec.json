@@ -1,0 +1,20 @@
+{
+  "name": "IDity",
+  "version": "1.0.0",
+  "summary": "IDity for iOS",
+  "description": "Detailed description of your SDK",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "You": "mhammoud85@hotmail.com"
+  },
+  "platforms": {
+    "ios": "15.6"
+  },
+  "source": {
+    "http": "https://github.com/mhammoud85/IDity-iOS/releases/download/1.0.0/IDity.xcframework.zip"
+  },
+  "vendored_frameworks": "IDity.xcframework"
+}

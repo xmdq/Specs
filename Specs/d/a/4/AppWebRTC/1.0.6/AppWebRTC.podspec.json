@@ -1,0 +1,27 @@
+{
+  "name": "AppWebRTC",
+  "version": "1.0.6",
+  "summary": "We developed webrtc framework",
+  "description": "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications capabilities via simple APIs.",
+  "homepage": "https://github.com/iOSApprikart",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Suneel Apprikart": "developer@apprikart.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "ios": {
+    "vendored_frameworks": [
+      "AppWebRTC/WebRTC.xcframework"
+    ]
+  },
+  "source": {
+    "http": "https://objectstore.e2enetworks.net/iosframeworks/iosframeworks/2026/04/09/appwebrtc.zip"
+  },
+  "exclude_files": "Classes/Exclude",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

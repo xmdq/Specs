@@ -1,0 +1,91 @@
+{
+  "name": "SFPlayer",
+  "version": "1.0.3",
+  "summary": "A lightweight custom video player based on AVFoundation.",
+  "description": "SFPlayer is a simple and customizable video player component for iOS projects.",
+  "homepage": "https://github.com/ChinaKeep/SFPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Keep": "keep@example.com"
+  },
+  "source": {
+    "git": "https://github.com/ChinaKeep/SFPlayer.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "module_name": "SFPlayer",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "default_subspecs": [
+    "Core",
+    "Container"
+  ],
+  "subspecs": [
+    {
+      "name": "UI",
+      "source_files": [
+        "Sources/UI/SFSlider.{h,m}",
+        "Sources/UI/SFBottonBarView.{h,m}"
+      ],
+      "public_header_files": [
+        "Sources/UI/SFSlider.h",
+        "Sources/UI/SFBottonBarView.h"
+      ]
+    },
+    {
+      "name": "Core",
+      "dependencies": {
+        "SFPlayer/UI": [
+
+        ]
+      },
+      "source_files": [
+        "Sources/Core/SFPlayer.{h,m}",
+        "Sources/Core/SFPlayerConfiguration.{h,m}",
+        "Sources/Core/SFPlayerController.{h,m}",
+        "Sources/Core/SFPlayerComponentProtocols.h",
+        "Sources/Core/SFPlayerKit.h"
+      ],
+      "public_header_files": [
+        "Sources/Core/SFPlayer.h",
+        "Sources/Core/SFPlayerConfiguration.h",
+        "Sources/Core/SFPlayerController.h",
+        "Sources/Core/SFPlayerComponentProtocols.h",
+        "Sources/Core/SFPlayerKit.h"
+      ],
+      "resources": [
+        "Sources/Resources/ImageResources.bundle"
+      ]
+    },
+    {
+      "name": "Container",
+      "dependencies": {
+        "SFPlayer/Core": [
+
+        ],
+        "SDWebImage": [
+          ">= 5.8"
+        ]
+      },
+      "source_files": [
+        "Sources/Container/SFVideoModel.{h,m}",
+        "Sources/Container/SFVideoCell.{h,m}"
+      ],
+      "resources": [
+        "Sources/Container/SFVideoCell.xib"
+      ],
+      "public_header_files": [
+        "Sources/Container/SFVideoModel.h",
+        "Sources/Container/SFVideoCell.h"
+      ]
+    }
+  ]
+}

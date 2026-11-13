@@ -1,0 +1,45 @@
+{
+  "name": "MSPGoogleAdapter",
+  "summary": "an adapter for Google SDK",
+  "description": "an adapter for Google SDK for MSP S2S",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "MSPSharedLibraries": [
+      "3.6.16-test"
+    ],
+    "MSPiOSCore": [
+      "3.6.16-test"
+    ],
+    "MSPGoogleAdsTypes": [
+      "3.6.16-test"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "~> 12.0"
+    ]
+  },
+  "version": "3.6.16-test",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.6.16-test/MSPGoogleAdapter-3.6.16-test.zip",
+    "type": "zip",
+    "sha256": "87276c258fe8790e6472a0eac2d22cf985af59c80efa1469eaeed172958c35d7"
+  },
+  "vendored_frameworks": "Binary/MSPGoogleAdapter.xcframework",
+  "swift_version": "5.0"
+}

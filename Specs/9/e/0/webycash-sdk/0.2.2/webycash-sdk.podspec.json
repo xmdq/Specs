@@ -1,0 +1,51 @@
+{
+  "name": "webycash-sdk",
+  "version": "0.2.2",
+  "summary": "Webcash cross-platform wallet SDK — Swift bindings",
+  "description": "Swift bindings for the webycash-sdk native library.\nProvides a Wallet class for managing Webcash HD wallets with\ninsert, pay, merge, recover, check, and encryption operations.",
+  "homepage": "https://github.com/webycash/webycash-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Harmoniq Punk": "disc-lack-9z@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/webycash/webycash-sdk.git",
+    "tag": "v0.2.2"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "osx": "13.0",
+    "watchos": "8.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "5.10",
+    "6.0"
+  ],
+  "default_subspecs": "WebycashSDK",
+  "subspecs": [
+    {
+      "name": "CWebycashSDK",
+      "source_files": "swift/Sources/CWebycashSDK/include/**/*.h",
+      "public_header_files": "swift/Sources/CWebycashSDK/include/**/*.h",
+      "preserve_paths": "swift/Sources/CWebycashSDK/module.modulemap",
+      "pod_target_xcconfig": {
+        "SWIFT_INCLUDE_PATHS": "$(PODS_TARGET_SRCROOT)/swift/Sources/CWebycashSDK"
+      }
+    },
+    {
+      "name": "WebycashSDK",
+      "dependencies": {
+        "webycash-sdk/CWebycashSDK": [
+
+        ]
+      },
+      "source_files": "swift/Sources/WebycashSDK/**/*.swift"
+    }
+  ],
+  "swift_version": "6.0"
+}

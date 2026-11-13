@@ -1,0 +1,31 @@
+{
+  "name": "UUChatTableView",
+  "version": "2.0.0",
+  "summary": "Lightweight UIKit chat bubbles with text, image, and voice support.",
+  "description": "UUChatTableView provides a small Objective-C chat UI focused on the core message\nmodel, frame calculation, cell rendering, and a pure-code input bar for demo and reuse.",
+  "homepage": "https://github.com/ZhipingYang/UUChatTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zhiping Yang": "ZhipingYang@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhipingYang/UUChatTableView.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "source_files": "Class/**/*.{h,m}",
+  "public_header_files": "Class/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "Photos",
+    "PhotosUI"
+  ],
+  "cocoapods_version": ">= 1.13.0"
+}

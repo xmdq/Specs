@@ -4,16 +4,16 @@
   "summary": "An incredible reading experience",
   "license": {
     "type": "Commercial",
-    "text": "                                            © 2018 Things Are Moving. All rights reserved.\n"
+    "text": "                                        © 2018 Wobook. All rights reserved.\n"
   },
   "authors": {
-    "Loïc Lavergne": "llavergne@thingsaremoving.com"
+    "Loïc Lavergne": "llavergne@holdingvm.com"
   },
-  "homepage": "https://www.thingsaremoving.com/",
+  "homepage": "https://www.wobook.com",
   "source": {
-    "http": "https://www.thingsaremoving.com/cocoapods/WobookReader-1.1.2-ios.zip"
+    "http": "https://github.com/Wobook/wobook-reader-ios/releases/download/v1.1.2-ios/WobookReader-1.1.2-ios.zip"
   },
-  "swift_version": "4.1",
+  "swift_version": "4.0",
   "platforms": {
     "ios": "10.0"
   },

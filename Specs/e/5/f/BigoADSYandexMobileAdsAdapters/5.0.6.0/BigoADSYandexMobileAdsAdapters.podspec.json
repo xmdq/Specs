@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "BigoADS": [
+      "~> 5.0.6"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "BigoADSYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "BigoADSYandexMobileAdsAdapters.xcframework",
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "public_header_files": [
+    "BigoADSYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/BigoADSYandexMobileAdsAdapters/5.0.6.0/cocoapods/34f52536-1c3a-4bcc-8128-13da767bc62a.zip",
+    "sha256": "05ce7f925afc7735d098dd3c0e86187cc8192711f16710542c3baf144a2c0d3b"
+  },
+  "source_files": [
+    "BigoADSYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "BigoADS adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "BigoADSYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "5.0.6.0",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

@@ -1,0 +1,51 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "MintegralAdSDK": [
+      "~> 8.0.7"
+    ],
+    "MintegralAdSDK/SplashAd": [
+      "~> 8.0.7"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0-beta.2"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "MintegralYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "MintegralYandexMobileAdsAdapters.xcframework",
+    "README.md"
+  ],
+  "public_header_files": [
+    "MintegralYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/MintegralYandexMobileAdsAdapters/8.0.7.0-beta.2/cocoapods/d908044a-f084-4d37-bffd-af0a5e6ddabd.zip",
+    "sha256": "5ce328e2faf479d7bb5ecee866f30e6441a65327d1407e8bf87ebf092a087558"
+  },
+  "source_files": [
+    "MintegralYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "Mintegral adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "MintegralYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "8.0.7.0-beta.2",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

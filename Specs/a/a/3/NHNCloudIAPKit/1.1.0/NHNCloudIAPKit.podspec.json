@@ -1,0 +1,36 @@
+{
+  "name": "NHNCloudIAPKit",
+  "version": "1.1.0",
+  "summary": "NHNCloudIAPKit Version 1.1.0",
+  "homepage": "https://github.com/nhn/nhncloud.iap.ios.sdk",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright NHN Corp. All Rights Reserved."
+  },
+  "authors": {
+    "GamePlatform Dev Team": "dl_platformsdk_all@nhn.com"
+  },
+  "source": {
+    "http": "https://github.com/nhn/nhncloud.iap.ios.sdk/releases/download/1.1.0/NHNCloudIAPKit-1.1.0.zip"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "platforms": {
+    "ios": "15.0"
+  },
+  "requires_arc": true,
+  "resource_bundles": {
+    "NHNCloudIAPKitPrivacyInfo": [
+      "PrivacyInfo.xcprivacy"
+    ]
+  },
+  "ios": {
+    "vendored_frameworks": "NHNCloudIAPKit.xcframework"
+  },
+  "frameworks": [
+    "Foundation",
+    "StoreKit"
+  ],
+  "swift_version": "5.0"
+}

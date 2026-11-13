@@ -1,0 +1,52 @@
+{
+  "name": "AFOPlaylist",
+  "version": "0.1.0",
+  "summary": "play list.",
+  "description": "Main features of player, player playlist.",
+  "homepage": "https://github.com/PangDuTechnology/AFOPlaylist.git",
+  "license": "MIT",
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFOPlaylist.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "AFOPlaylist/**/*.{h,m}",
+  "exclude_files": "AFOPlaylist/Tests/**/*",
+  "public_header_files": "AFOPlaylist/**/*.h",
+  "requires_arc": true,
+  "static_framework": true,
+  "dependencies": {
+    "AFOFoundation": [
+
+    ],
+    "AFOSchedulerCore": [
+
+    ],
+    "AFORouter": [
+
+    ],
+    "AFOUIKIT": [
+
+    ],
+    "AFOFFMpeg": [
+
+    ],
+    "AFOLANUpload": [
+
+    ],
+    "AFOSQLite": [
+
+    ],
+    "FMDB": [
+      "~> 2.7"
+    ],
+    "AFOGitHub": [
+
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "YTNativeEvolutionAd",
+  "version": "1.1.1",
+  "summary": "A short description of YTNativeEvolutionAd.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "todo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongzhiyue": "mrdongyueyue@163.com"
+  },
+  "source": {
+    "http": "https://lemon-cos-1258625126.cos.ap-beijing.myqcloud.com/lemon-ios-sdk/YTNativeEvolutionAd/1.1.0/YTNativeEvolutionAd.zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "libraries": [
+    "sqlite3",
+    "xml2",
+    "z"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Foundation",
+    "UIKit",
+    "AdSupport",
+    "StoreKit",
+    "QuartzCore",
+    "CoreTelephony",
+    "MobileCoreServices",
+    "Accelerate",
+    "AVFoundation",
+    "WebKit"
+  ],
+  "ios": {
+    "preserve_paths": "YTNativeEvolutionAd/*.xcframework",
+    "vendored_frameworks": "YTNativeEvolutionAd/*.{xcframework, framework}",
+    "resources": "YTNativeEvolutionAd/**/*.{bundle}"
+  }
+}

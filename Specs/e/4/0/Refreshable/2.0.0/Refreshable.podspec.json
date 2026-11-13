@@ -1,0 +1,29 @@
+{
+  "name": "Refreshable",
+  "version": "2.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "Pull to refresh and load more function for UIScrollView",
+  "homepage": "https://github.com/hoangtaiki/Refreshable",
+  "authors": {
+    "Hoangtaiki": "duchoang.vp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hoangtaiki/Refreshable.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Refreshable/**/*.swift",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "swift_version": "5.9"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "QSPageRouter",
+  "version": "1.0.0",
+  "summary": "A lightweight UIKit page router with push, present, and sheet support.",
+  "description": "QSPageRouter is a lightweight UIKit router for iOS projects. It provides a unified\nRoutable-based navigation API for resolving the current view controller, pushing pages,\npresenting full-screen or automatic modals, and presenting configurable sheets.",
+  "homepage": "https://github.com/fallpine/QSPageRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Song",
+  "source": {
+    "git": "https://github.com/fallpine/QSPageRouter.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "requires_arc": true,
+  "source_files": "QSPageRouter/QSPageRouter/Router/*.{swift}",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}

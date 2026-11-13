@@ -1,0 +1,36 @@
+{
+  "name": "Captchala",
+  "version": "1.0.2",
+  "summary": "Captchala SDK for iOS, macOS, and Mac Catalyst.",
+  "description": "Captchala SDK — risk-driven captcha verification with native UI.\nSingle binary for iOS, native macOS, and Mac Catalyst.",
+  "homepage": "https://captcha.la",
+  "documentation_url": "https://captcha.la/docs/sdk/ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Captchala": "support@captcha.la"
+  },
+  "source": {
+    "http": "https://pkg.captcha-pkg.net/ios/Captchala-1.0.2.zip",
+    "sha256": "0c4882fdf4781abc4343c6dcfbca8bd2b1af13ddfa828a35dddb758de97f4574"
+  },
+  "platforms": {
+    "ios": "13.0",
+    "osx": "11.0"
+  },
+  "swift_versions": "5.9",
+  "vendored_frameworks": "Captchala.xcframework",
+  "resources": [
+    "Captchala.bundle"
+  ],
+  "frameworks": "WebKit",
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Captchala\""
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Captchala\""
+  },
+  "swift_version": "5.9"
+}

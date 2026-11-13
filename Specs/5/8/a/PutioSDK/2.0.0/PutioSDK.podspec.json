@@ -1,0 +1,34 @@
+{
+  "name": "PutioSDK",
+  "module_name": "PutioSDK",
+  "version": "2.0.0",
+  "swift_versions": "5.0",
+  "summary": "Swift SDK for the put.io API.",
+  "description": "Swift SDK for the [put.io API](https://api.put.io).",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "put.io": "devs@put.io"
+  },
+  "homepage": "https://github.com/putdotio/putio-sdk-swift",
+  "source": {
+    "git": "https://github.com/putdotio/putio-sdk-swift.git",
+    "tag": "2.0.0"
+  },
+  "social_media_url": "https://twitter.com/putdotio",
+  "platforms": {
+    "ios": "26.0"
+  },
+  "source_files": "PutioSDK/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.11"
+    ],
+    "SwiftyJSON": [
+      "~> 5.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

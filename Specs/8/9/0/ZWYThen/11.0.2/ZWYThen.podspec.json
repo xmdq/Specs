@@ -1,0 +1,22 @@
+{
+  "name": "ZWYThen",
+  "version": "11.0.2",
+  "summary": "Super sweet syntactic sugar for Swift initializers.",
+  "homepage": "https://github.com/HolmesZhao/Then",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Suyeol Jeon": "269258864@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HolmesZhao/Then.git",
+    "tag": "11.0.2"
+  },
+  "source_files": "Sources/Then/*.swift",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "12.0"
+  }
+}

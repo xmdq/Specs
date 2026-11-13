@@ -1,0 +1,24 @@
+{
+  "name": "HyChartsSwift",
+  "version": "1.0.0",
+  "summary": "A high-performance Swift K-line & time-sharing chart library for iOS.",
+  "description": "HyChartsSwift is a Swift rewrite of the HyCharts OC library(https://github.com/hydreamit/HyCharts), featuring:\n- Candlestick (K-line) chart with pan & pinch-zoom gestures\n- Time-sharing (分时) chart with average-price line\n- Main-chart overlays: SMA, EMA, Bollinger Bands\n- Auxiliary panel (switchable): Volume, MACD, KDJ, RSI\n- Period separators for daily / weekly / monthly / yearly K-lines\n- Protocol-oriented data layer — bring your own model\n- CALayer rendering pipeline for smooth 60 fps performance\n- Thread-safe indicator computation via Swift actor",
+  "homepage": "https://github.com/woaiqiu947/HyChartsSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woaiqiu947": ""
+  },
+  "source": {
+    "git": "https://github.com/woaiqiu947/HyChartsSwift.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Sources/HyChartsSwift/**/*.swift",
+  "swift_version": "5.9"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "JTMaxGDTAdapter",
+  "version": "1.0.0.0",
+  "summary": "JTMaxGDTAdapter",
+  "description": "JTMaxGDTAdapter. A lightweight and efficient advertising solution for iOS apps.",
+  "homepage": "https://ssp-web.jutuiad.cn/",
+  "license": {
+    "type": "Proprietary",
+    "text": "All rights reserved."
+  },
+  "authors": {
+    "Jutui Team": "wangjian@jutui.cn"
+  },
+  "source": {
+    "http": "https://jt-sdk-ios.oss-cn-beijing.aliyuncs.com/sdk_framework/JTMaxGDTAdapter_v1.0.0.0.zip",
+    "type": "zip"
+  },
+  "vendored_frameworks": "JTMaxGDTAdapter_v1.0.0.0/JTMaxGDTAdapter.xcframework",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "JTMaxAdSDK": [
+      "0.0.0.1"
+    ],
+    "GDTMobSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "frameworks": [
+    "AssetsLibrary",
+    "AudioToolbox",
+    "AVFoundation",
+    "Accelerate",
+    "AVKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreText",
+    "CoreImage",
+    "CoreServices",
+    "CoreData",
+    "DeviceCheck",
+    "Foundation",
+    "ImageIO",
+    "JavaScriptCore",
+    "MapKit",
+    "MessageUI",
+    "MobileCoreServices",
+    "MediaPlayer",
+    "Photos",
+    "QuartzCore",
+    "StoreKit",
+    "SafariServices",
+    "Security",
+    "SystemConfiguration",
+    "UIKit",
+    "WebKit"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9",
+    "sqlite3",
+    "c++",
+    "c++abi",
+    "xml2",
+    "bz2",
+    "iconv"
+  ]
+}

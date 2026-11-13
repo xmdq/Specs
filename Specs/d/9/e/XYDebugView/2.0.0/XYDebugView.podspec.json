@@ -1,0 +1,28 @@
+{
+  "name": "XYDebugView",
+  "version": "2.0.0",
+  "summary": "A lightweight 2D / 3D UIKit hierarchy debugger.",
+  "description": "XYDebugView helps inspect UIKit view hierarchies with 2D outlines, 3D exploded layers,\nfocus controls, and an index tree browser, all from a lightweight CocoaPods package.",
+  "homepage": "https://github.com/ZhipingYang/XYDebugView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhipingYang": "XcodeYang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhipingYang/XYDebugView.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "source_files": "XYDebugView/**/*.{h,m}",
+  "public_header_files": [
+    "XYDebugView/XYDebugViewManager.h",
+    "XYDebugView/XYdebugConst.h"
+  ],
+  "frameworks": "UIKit"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "VideoEditorCore",
+  "version": "1.1.1",
+  "summary": "Timeline video editor: preview and export share one AVFoundation composition.",
+  "description": "Timeline-based multi-clip video editor (trim, split, stickers, text, color filters,\ntransitions, audio) with 9:16 MP4 export. The editing screen, the engine and the result\nall live here; the preview draws the same composition the export renders, so what you see\nis what you get. A license key from https://infinive.dev is required to open the editor.",
+  "homepage": "https://infinive.dev",
+  "license": {
+    "type": "Commercial",
+    "text": "Commercial license. See https://infinive.dev"
+  },
+  "authors": {
+    "Infini": "support@infinive.dev"
+  },
+  "source": {
+    "http": "https://dl.infinive.dev/ios/1.1.1/VideoEditorCore.xcframework.zip",
+    "sha256": "df93853a581313ff3fb9473ce516289b0b0e7ad8aa249b61be40490db69e00ef"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.9",
+  "vendored_frameworks": "VideoEditorCore.xcframework",
+  "frameworks": [
+    "AVFoundation",
+    "CoreImage",
+    "CoreMedia",
+    "CoreText",
+    "ImageIO",
+    "UIKit"
+  ],
+  "swift_version": "5.9"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "UnisseySdk",
+  "version": "5.0.0",
+  "summary": "Unissey's SDK providing an easy video selfie acquisition to be used with Unissey's solutions.",
+  "description": "This SDK provides simple user interfaces to record a selfie while detecting possible injection attacks. The resulting output is meant to be used with Unissey's solutions.",
+  "homepage": "https://github.com/unissey/sdk-ios",
+  "license": "ISC",
+  "authors": {
+    "Unissey": "contact@unissey.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "vendored_frameworks": "UnisseySdk.xcframework",
+  "source": {
+    "http": "https://storage.googleapis.com/unissey-shared/sdk-ios/ui/UnisseySdk-v5.0.0.xcframework.zip",
+    "sha256": "cd4d2af2a1eb6aa3a4b5c7384e7c31484b05d84490d4cd7312c907cf508d7bfd"
+  },
+  "dependencies": {
+    "UnisseyHeadlessSdk": [
+      "1.0.0"
+    ]
+  }
+}

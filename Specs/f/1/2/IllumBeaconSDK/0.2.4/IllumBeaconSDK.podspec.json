@@ -1,0 +1,30 @@
+{
+  "name": "IllumBeaconSDK",
+  "module_name": "BeaconSDK",
+  "version": "0.2.4",
+  "summary": "Illum Beacon / location iOS SDK",
+  "description": "Swift SDK for BLE beacon detection, location tracking, incident management,\nand related APIs for Illum / Tezzeract integrations. Same module and sources\nas the Swift Package Manager product \"BeaconSDK\". CocoaPods pod is named\nIllumBeaconSDK because the BeaconSDK trunk name is already registered elsewhere.",
+  "homepage": "https://git-az.tezzeract.ai/newdevlopment/illum-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tezzeract": "dev@tezzeract.ai"
+  },
+  "source": {
+    "git": "https://git-az.tezzeract.ai/newdevlopment/illum-ios-sdk.git",
+    "tag": "0.2.4"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Sources/BeaconSDK/**/*.swift",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.10"
+    ]
+  },
+  "swift_version": "5.9"
+}

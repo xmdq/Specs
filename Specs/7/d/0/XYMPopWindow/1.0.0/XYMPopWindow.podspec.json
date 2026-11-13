@@ -1,0 +1,31 @@
+{
+  "name": "XYMPopWindow",
+  "version": "1.0.0",
+  "summary": "Objective-C bottom popups with nested transitions and WebKit content.",
+  "description": "Reusable UIKit popup containers with Masonry layout, nested navigation, scroll coordination, and a WebKit popup.",
+  "homepage": "https://github.com/MIKU-MIKU-39/XYMPopWindow",
+  "source": {
+    "git": "https://github.com/MIKU-MIKU-39/XYMPopWindow.git",
+    "tag": "1.0.0"
+  },
+  "authors": "Xuyiming",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "15.1"
+  },
+  "requires_arc": true,
+  "source_files": "Sources/**/*.{h,m}",
+  "public_header_files": "Sources/*.h",
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ],
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1"
+    ]
+  }
+}

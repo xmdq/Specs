@@ -1,0 +1,30 @@
+{
+  "name": "MSPiOSCore",
+  "summary": "MSP iOS Core Framework",
+  "description": "Core iOS framework for MSP SDK",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "version": "3.6.8-prerelease",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.6.8-prerelease/MSPiOSCore-3.6.8-prerelease.zip",
+    "type": "zip",
+    "sha256": "c17cc2c7851cab5c21bc87c2c54ce6c667526763b3c117b742c4ba8b0607191c"
+  },
+  "vendored_frameworks": "Binary/MSPiOSCore.xcframework",
+  "swift_version": "5.0"
+}

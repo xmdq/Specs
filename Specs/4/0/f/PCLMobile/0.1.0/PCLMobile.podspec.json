@@ -1,0 +1,30 @@
+{
+  "name": "PCLMobile",
+  "version": "0.1.0",
+  "summary": "Point Cloud Library wrapper for iOS.",
+  "description": "PCLMobile bundles a curated subset of PCL (Point Cloud Library) together\nwith Boost, Eigen, FLANN and Qhull as a single iOS XCFramework.\nThe public surface is a small Objective-C facade — Swift consumers never\nsee the underlying C++ types.",
+  "homepage": "https://github.com/Sirokujira/pcl_mobile_framework",
+  "license": {
+    "type": "Apache-2.0"
+  },
+  "authors": {
+    "Sirokujira": "https://github.com/Sirokujira"
+  },
+  "source": {
+    "http": "https://github.com/Sirokujira/pcl_mobile_framework/releases/download/v0.1.0/PCLMobile.xcframework.zip"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "PCLMobile.xcframework",
+  "libraries": "c++",
+  "frameworks": "Foundation",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "ENABLE_BITCODE": "NO",
+    "CLANG_MODULES_AUTOLINK": "NO",
+    "OTHER_LDFLAGS": "$(inherited) -weak_framework UIUtilities"
+  }
+}

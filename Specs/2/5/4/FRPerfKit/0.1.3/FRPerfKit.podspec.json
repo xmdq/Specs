@@ -1,0 +1,42 @@
+{
+  "name": "FRPerfKit",
+  "version": "0.1.3",
+  "summary": "A lightweight SwiftUI performance toolkit (FPS / CPU / memory / GPU / launch / hang) with an in-app overlay.",
+  "description": "FRPerfKit displays real-time performance metrics — FPS, CPU, memory,\nGPU, cold launch time, and main thread hangs — as a draggable in-app\noverlay during DEBUG builds. Sessions are persisted to disk and can\nbe exported as JSON or CSV for cross-run comparison.\n\nAll collectors and overlay UI are stripped from Release builds via\n`#if DEBUG`, leaving a zero-overhead passthrough.",
+  "homepage": "https://github.com/yangfurui/FRPerfKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangfurui": "yangfurui@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/yangfurui/FRPerfKit.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": [
+    "5.9"
+  ],
+  "source_files": [
+    "Sources/FRPerfKit/**/*.swift",
+    "Sources/CIOKit/**/*.{h,c}"
+  ],
+  "public_header_files": "Sources/CIOKit/include/*.h",
+  "frameworks": [
+    "UIKit",
+    "SwiftUI",
+    "Combine",
+    "QuartzCore",
+    "IOKit"
+  ],
+  "resource_bundles": {
+    "FRPerfKit": [
+      "Sources/FRPerfKit/Resources/**/*.lproj/*.strings"
+    ]
+  },
+  "swift_version": "5.9"
+}

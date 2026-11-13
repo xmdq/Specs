@@ -1,0 +1,33 @@
+{
+  "name": "BFLabelTextAdjustment",
+  "version": "0.1.0",
+  "summary": "UILabel text adjustment helpers for width-constrained layouts.",
+  "description": "BFLabelTextAdjustment provides reusable UILabel helpers for handling width-constrained\ntext with predictable fallback strategies:\n\n- single line when possible\n- font scaling when needed\n- multiline fallback when scaling is not enough\n- stable repeated calls without cumulative font shrinking",
+  "homepage": "https://gitee.com/bfchen/bflabel-text-adjustment",
+  "license": {
+    "type": "MIT",
+    "text": "MIT"
+  },
+  "authors": {
+    "Bfchen": "2946779829@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/bfchen/bflabel-text-adjustment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "requires_arc": true,
+  "static_framework": true,
+  "source_files": "Sources/BFLabelTextAdjustment/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "deprecated": true,
+  "swift_version": "5.0"
+}

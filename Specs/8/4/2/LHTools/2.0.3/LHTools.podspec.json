@@ -1,0 +1,71 @@
+{
+  "name": "LHTools",
+  "version": "2.0.3",
+  "summary": "2.0.3开发",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shookHead/LHTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shookHead": "lin.hai2020@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shookHead/LHTools.git",
+    "tag": "2.0.3"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "LHTools/Classes/**/*.swift",
+  "resources": "LHTools/Classes/resource/**/*",
+  "static_framework": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "SmartCodable": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SwiftyUserDefaults": [
+
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "SQLite.swift": [
+
+    ],
+    "Hero": [
+
+    ],
+    "NVActivityIndicatorView": [
+
+    ],
+    "ZLPhotoBrowser": [
+
+    ],
+    "JXPhotoBrowser": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

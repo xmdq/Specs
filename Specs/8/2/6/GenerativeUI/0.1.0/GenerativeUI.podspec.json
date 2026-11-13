@@ -1,0 +1,27 @@
+{
+  "name": "GenerativeUI",
+  "version": "0.1.0",
+  "summary": "A short description of GenerativeUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coderyi/GenerativeUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coderyi": "coderyi@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/coderyi/GenerativeUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "GenerativeUI/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "LimelightSDKAppLovinAdapter",
+  "version": "0.1.0",
+  "swift_versions": "5.10",
+  "authors": {
+    "Limelight": "info@limelight.inc"
+  },
+  "social_media_url": "https://www.limelight.inc/",
+  "license": "Proprietary",
+  "homepage": "https://www.limelight.inc/",
+  "source": {
+    "http": "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDKAppLovinAdapter/0.1.0/LimelightSDKAppLovinAdapter.xcframework.zip"
+  },
+  "summary": "Limelight",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": [
+    "LimelightSDKAppLovinAdapter.xcframework"
+  ],
+  "dependencies": {
+    "LimelightSDK": [
+
+    ],
+    "AppLovinSDK": [
+
+    ]
+  },
+  "swift_version": "5.10"
+}

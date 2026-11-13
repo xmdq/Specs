@@ -1,0 +1,30 @@
+{
+  "name": "WhatfixMobileTest",
+  "version": "1.0.2",
+  "summary": "Test pod for validating the wfx-ios-sdk publish pipeline end-to-end. Not for production use.",
+  "homepage": "https://whatfix.com",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright Whatfix 2026"
+  },
+  "authors": {
+    "Whatfix Mobile Team": "mobile@whatfix.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://whatfixartifactory.jfrog.io/artifactory/whatfix-uat-ios-mobile-public/test/1.0.2/WhatfixMobileTest-1.0.2.zip",
+    "sha256": "50ecc1f22b1ef2725d341cd035fc0b43714165d77705c8e957fb2ece514cf151"
+  },
+  "vendored_frameworks": "WhatfixMobileSDK.xcframework",
+  "frameworks": [
+    "UIKit",
+    "WebKit",
+    "Foundation"
+  ],
+  "libraries": "sqlite3",
+  "requires_arc": true,
+  "swift_version": "5.0"
+}

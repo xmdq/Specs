@@ -1,0 +1,27 @@
+{
+  "name": "razorpay-banking-wrapper-sdk",
+  "version": "1.0.0",
+  "summary": "Razorpay Banking Wrapper SDK for iOS",
+  "description": "Banking wrapper SDK that integrates with Razorpay. Depends on Razorpay SDK; add this pod only.",
+  "homepage": "https://github.com/razorpay/razorpay-banking-wrapper-sdk",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Razorpay": "support@razorpay.com"
+  },
+  "source": {
+    "git": "https://github.com/razorpay/razorpay-banking-wrapper-sdk.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "Frameworks/RazorpayBankingWrapper.xcframework",
+  "dependencies": {
+    "razorpay-pod": [
+      ">= 1.4.1"
+    ]
+  }
+}

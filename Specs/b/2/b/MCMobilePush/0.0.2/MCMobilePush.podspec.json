@@ -1,6 +1,7 @@
 {
   "name": "MCMobilePush",
   "version": "0.0.2",
+  "swift_version": "3.3",
   "summary": "An SDK that handles push notifications.",
   "homepage": "https://github.com/mediacorp/mediacorp-push-ios",
   "authors": {

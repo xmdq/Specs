@@ -1,0 +1,34 @@
+{
+  "name": "LeeoSDK",
+  "version": "0.1.1",
+  "summary": "Leeo SDK – trip tracking and incident reporting (DriveKit + fleet-service).",
+  "description": "iOS SDK for trip tracking and incident reporting. Uses DriveKit and the Leeo fleet backend. No GitHub access required.",
+  "homepage": "https://github.com/fairmatic/leeo-cocoapods",
+  "license": {
+    "type": "UNLICENSED",
+    "file": "LICENSE"
+  },
+  "authors": "Leeo",
+  "source": {
+    "git": "https://github.com/fairmatic/leeo-cocoapods.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "vendored_frameworks": "LeeoSDK.xcframework",
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "CoreMotion",
+    "SystemConfiguration"
+  ],
+  "dependencies": {
+    "DriveKitTripAnalysis": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

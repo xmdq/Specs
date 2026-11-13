@@ -1,0 +1,34 @@
+{
+  "name": "hot-coding-ios",
+  "version": "0.0.1",
+  "summary": "Debug-only iOS bridge SDK for observing and controlling an app from local tools.",
+  "description": "hot-coding-ios packages the LLMDebugBridge SDK and shared protocol models into a\nsingle public CocoaPods dependency for debug-only iOS runtime inspection and control.",
+  "homepage": "https://github.com/GreatTreeZX/hot-coding-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GreatTreeZX": "opensource@example.com"
+  },
+  "source": {
+    "git": "https://github.com/GreatTreeZX/hot-coding-ios.git",
+    "tag": "0.0.1"
+  },
+  "module_name": "HotCodingIOS",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": [
+    "Sources/HotCodingIOS/**/*.swift",
+    "Sources/LLMDebugBridge/**/*.swift",
+    "Sources/BridgeShared/**/*.swift"
+  ],
+  "frameworks": [
+    "Foundation",
+    "Network",
+    "UIKit"
+  ],
+  "swift_version": "5.9"
+}

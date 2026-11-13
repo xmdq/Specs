@@ -1,0 +1,32 @@
+{
+  "name": "airbridge-ios-sdk-restricted",
+  "version": "4.9.4",
+  "homepage": "https://airbridge.io",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright AB180 Inc. All Rights Reserved."
+  },
+  "authors": "ab180",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://sdk-download.airbridge.io/airbridge-ios-sdk-restricted/4.9.4/Airbridge.zip",
+    "sha256": "94a1b43232d178f36cebb63391f05f17a7c0a811314a1b9b145819e7c2390b21"
+  },
+  "preserve_paths": "Airbridge",
+  "source_files": "Airbridge/.Source/Airbridge.swift",
+  "vendored_frameworks": "Airbridge/Airbridge.xcframework",
+  "ios": {
+    "weak_frameworks": [
+      "AdServices",
+      "CoreTelephony",
+      "StoreKit",
+      "WebKit"
+    ]
+  },
+  "summary": "Airbridge SDK for iOS",
+  "description": "# airbridge-ios-sdk-restricted\n\nAirbridge SDK for iOS\n\n## Document\n\n- https://help.airbridge.io/\n\n## Reference\n\n- https://reference.airbridge.io/airbridge-ios-sdk-restricted/4.9.4/",
+  "swift_version": "5.0"
+}

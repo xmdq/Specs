@@ -1,0 +1,30 @@
+{
+  "name": "IoniconsKit",
+  "version": "2.0.0",
+  "summary": "Ionicons v4 for Swift with UIKit and SwiftUI support.",
+  "description": "IoniconsKit provides type-safe access to the Ionicons v4 icon font\n(696 icons) for both UIKit and SwiftUI applications.\nIcons have iOS and Material Design variants.",
+  "homepage": "https://github.com/keitaoouchi/IoniconsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keita.oouchi": "keita.oouchi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/keitaoouchi/IoniconsKit.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "18.0",
+    "osx": "26.0"
+  },
+  "swift_versions": "6.0",
+  "source_files": "IoniconsKit/Classes/**/*.{swift,h}",
+  "resource_bundles": {
+    "IoniconsKit": [
+      "IoniconsKit/Assets/*.ttf"
+    ]
+  },
+  "swift_version": "6.0"
+}

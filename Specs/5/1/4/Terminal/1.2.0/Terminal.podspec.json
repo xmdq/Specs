@@ -1,0 +1,26 @@
+{
+  "name": "Terminal",
+  "version": "1.2.0",
+  "summary": "Terminal is a source code for iOS that allows your application to act as a BLE terminal.",
+  "description": "Terminal SDK позволяет вашему iOS приложению работать как BLE-терминал для приема платежных токенов от клиентских устройств (Android/iOS).",
+  "homepage": "https://gitverse.ru/sberpay/TerminalSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexSpb199": "AStIpatov@sberbank.ru",
+    "FarafonovK": "KAFarafonov@sberbank.ru",
+    "SergeyGladkiy": "SIGladkiy@sberbank.ru"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://gitverse.ru/sberpay/TerminalSDK-iOS.git",
+    "tag": "1.2.0"
+  },
+  "source_files": "Sources/**/*.swift",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

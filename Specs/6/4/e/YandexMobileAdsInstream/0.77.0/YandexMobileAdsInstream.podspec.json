@@ -1,0 +1,44 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "YandexMobileAds": [
+      "8.6.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "YandexMobileAdsInstream",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "YandexMobileAdsInstream.xcframework"
+  ],
+  "public_header_files": [
+    "YandexMobileAdsInstream.xcframework/**/*.h"
+  ],
+  "resources": [
+    "YandexMobileAdsInstream.xcframework/InstreamAdsBundle.bundle"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/YandexMobileAdsInstream/0.77.0/cocoapods/1a8427e5-106f-4302-b2b9-c14aedd61c45.zip",
+    "sha256": "c0a518f9069f93ab2775bb98fe995d984c930f1bb3245f8ddb2574a5b674d888"
+  },
+  "source_files": [
+    "YandexMobileAdsInstream.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "The Yandex Mobile Ads Instream SDK provides mobile interfaces for Yandex Advertising Network",
+  "vendored_frameworks": [
+    "YandexMobileAdsInstream.xcframework"
+  ],
+  "version": "0.77.0",
+  "swift_version": "5.9.0"
+}

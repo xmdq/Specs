@@ -1,0 +1,36 @@
+{
+  "name": "iOS26Adaptation",
+  "version": "1.0.0",
+  "summary": "iOS 26 SDK adaptation guide, templates, and scanner",
+  "description": "iOS26Adaptation is a zero-runtime-impact documentation and tooling package\nfor iOS 26 SDK adaptation. It includes:\n\n- Code templates (Swift & Objective-C) for SceneDelegate migration,\n  UIApplication window access, and notification option adaptation\n- Automated project scanner for deprecated APIs\n- Phase-by-phase checklists and testing guides\n- FAQ and troubleshooting documentation\n\nThis package does not compile any code into your app. It is distributed\nas a resource bundle for reference and CI scanning only. Remove it\nanytime after adaptation is complete with zero impact on your project.",
+  "homepage": "https://github.com/luodeCoding/ios26-adaptation-skill",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "roder": ""
+  },
+  "source": {
+    "git": "https://github.com/luodeCoding/ios26-adaptation-skill.git",
+    "tag": "1.0.0"
+  },
+  "resource_bundles": {
+    "iOS26Adaptation": [
+      "templates/**/*",
+      "scripts/*",
+      "docs/*",
+      "examples/*",
+      ".claude/*",
+      "SKILL.md",
+      "AGENTS.md",
+      "README.md",
+      "README.zh.md",
+      "CHANGELOG.md"
+    ]
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true
+}

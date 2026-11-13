@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "ChartboostSDK": [
+      "~> 9.11.0"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "ChartboostYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "ChartboostYandexMobileAdsAdapters.xcframework",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "public_header_files": [
+    "ChartboostYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/ChartboostYandexMobileAdsAdapters/9.11.0.0/cocoapods/8ece656f-5ead-4520-a82b-19c37820ca5f.zip",
+    "sha256": "31af496ab28e032ae7ec69c150f10626807fdbb5571795f4d185428e7c2949ed"
+  },
+  "source_files": [
+    "ChartboostYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "Chartboost adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "ChartboostYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "9.11.0.0",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

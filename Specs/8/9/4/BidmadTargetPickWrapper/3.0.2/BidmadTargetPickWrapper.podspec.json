@@ -1,0 +1,45 @@
+{
+  "name": "BidmadTargetPickWrapper",
+  "version": "3.0.2",
+  "summary": "This repository is built to wrap TargetPick (LibADPlus) SDK.",
+  "description": "This repository is built to wrap TargetPick SDK. Use this repository for BidmadTargetPickAdapter support.",
+  "homepage": "https://targetpick.io/",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "Markus": "markus@adop.cc"
+  },
+  "source": {
+    "git": "https://github.com/bidmad/cocoapod.git",
+    "tag": "BidmadTargetPickWrapper.3.0.2"
+  },
+  "vendored_frameworks": [
+    "LibADPlus.xcframework",
+    "OMSDK_Cjnet.xcframework"
+  ],
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.0",
+  "frameworks": [
+    "AVKit",
+    "AVFoundation",
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "QuartzCore",
+    "SystemConfiguration",
+    "MediaPlayer",
+    "CFNetwork",
+    "WebKit",
+    "StoreKit",
+    "AdSupport"
+  ],
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "AdSurgeADN",
+  "version": "1.9.2",
+  "summary": "AdSurgeADN iOS SDK AdSurgeSDK",
+  "description": "Commercial iOS SDK distributed as a prebuilt framework.",
+  "homepage": "https://www.adsurge.com/",
+  "authors": {
+    "AdSurge": "support@serafino.co"
+  },
+  "license": {
+    "type": "Commercial",
+    "text": "                    Copyright 2025 AdSurge Corp. All rights reserved.\n                    AdSurgeSDK is available under a commercial license.(https://www.adsurge.com/privacy/privacypolicy.html).\n"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": [
+    "4.2"
+  ],
+  "source": {
+    "http": "https://sdkstatic.adsurge.com/sdk/package/ios/AdSurge_iOS_SDK_1.9.2_9830fdf87f2d8c890486708e56f71208.zip",
+    "sha256": "b8b25bfc7927d5d61c53c25e0a8942415cf215cc63983b520c34e3fa6981a214"
+  },
+  "vendored_frameworks": "framework/AdSurgeSDK.xcframework",
+  "swift_version": "4.2"
+}

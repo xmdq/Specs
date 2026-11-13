@@ -1,0 +1,34 @@
+{
+  "name": "Tencent-MapTrackSDK",
+  "version": "1.2.1",
+  "summary": "Tencent-MapTrackSDK",
+  "homepage": "https://lbs.qq.com/mobile/iosTrackSDK/iosTraceGuide/iosSummary",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "TencentLBS": "tencentlbspod@outlook.com"
+  },
+  "source": {
+    "http": "https://framework-70105.njc.vod.tencent-cloud.com/track/TencentMapTrackKit_1.2.1-1770712758.zip",
+    "sha256": "4f710503ff863d653cc1efc5425611b92a46522c6c41ffa430a3ded1efef47fb"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "TencentMapTrackKit.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  }
+}

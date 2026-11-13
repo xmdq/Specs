@@ -1,0 +1,27 @@
+{
+  "name": "ZBWSecuritySDK",
+  "version": "1.0.2",
+  "summary": "安全库，包括数据影藏，加密等.",
+  "description": "安全库，包括数据影藏，加密等。防止重签名等。",
+  "homepage": "http://EXAMPLE/ZBWSecuritySDK",
+  "license": "BSD",
+  "authors": {
+    "朱博文": "409256557@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.15"
+  },
+  "source": {
+    "git": "git@gitlab.91chengguo.com:component-iOS/ZBWSecuritySDK.git",
+    "tag": "1.0.2"
+  },
+  "source_files": [
+    "ZBWSecuritySDK",
+    "ZBWSecuritySDK/**/*.{h,m,c}"
+  ],
+  "exclude_files": [
+    "ZBWSecuritySDK/**/output/**/*",
+    "ZBWSecuritySDK/ZBWSecuritySDK/ZBWSecuritySDK/output"
+  ]
+}

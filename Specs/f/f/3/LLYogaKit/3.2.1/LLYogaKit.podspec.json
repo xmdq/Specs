@@ -1,0 +1,35 @@
+{
+  "name": "LLYogaKit",
+  "version": "3.2.1",
+  "summary": "LLYogaKit is a Yoga layout engine for iOS.",
+  "description": "LLYogaKit is a Yoga layout engine for iOS that provides a declarative, flexbox-based layout system for UIKit views. It allows developers to create complex layouts with ease using a simple API.",
+  "homepage": "https://github.com/leoliuyt/LLYogaKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leoliuyt": "leoliuyt@sina.cn"
+  },
+  "source": {
+    "git": "https://github.com/leoliuyt/LLYogaKit.git",
+    "tag": "3.2.1"
+  },
+  "platforms": {
+    "ios": "13.4"
+  },
+  "source_files": "LLYogaKit/Classes/*.{h,m,swift}",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "module_name": "LLYogaKit",
+  "dependencies": {
+    "Yoga": [
+      "~> 3.2.1"
+    ]
+  },
+  "public_header_files": "LLYogaKit/Classes/{YGLayout,UIView+Yoga}.h",
+  "private_header_files": "LLYogaKit/Classes/YGLayout+Private.h",
+  "swift_versions": "5.1",
+  "swift_version": "5.1"
+}

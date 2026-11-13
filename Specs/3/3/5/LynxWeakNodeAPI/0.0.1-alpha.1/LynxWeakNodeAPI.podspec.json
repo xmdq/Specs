@@ -1,0 +1,32 @@
+{
+  "name": "LynxWeakNodeAPI",
+  "version": "0.0.1-alpha.1",
+  "summary": "Weak-linked Node-API bridge for Lynx on iOS.",
+  "description": "LynxWeakNodeAPI packages the generated weak-node-api sources and headers for\niOS. PrimJS consumes this pod from its adapter subspec instead of embedding the\ngenerated weak-node-api sources directly in PrimJS.podspec.",
+  "homepage": "https://github.com/lynx-family/primjs",
+  "license": {
+    "type": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lynx Authors": "lynx.authors@users.noreply.github.com"
+  },
+  "source": {
+    "http": "https://github.com/lynx-family/primjs/releases/download/weak-node-api-v0.0.1-alpha.1/LynxWeakNodeAPI-0.0.1-alpha.1.zip",
+    "sha256": "38600ee1662300318e70076793a3ac5c9eacde74464adaf1f7d98625c6df3e0b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "header_mappings_dir": "packages/weak-node-api",
+  "source_files": [
+    "packages/weak-node-api/generated/*.{h,hpp,cc,cpp}",
+    "packages/weak-node-api/headers/*.{h,hpp}",
+    "packages/weak-node-api/shim/*.{h,hpp}"
+  ],
+  "public_header_files": [
+    "packages/weak-node-api/generated/*.{h,hpp}",
+    "packages/weak-node-api/headers/*.{h,hpp}",
+    "packages/weak-node-api/shim/*.{h,hpp}"
+  ]
+}

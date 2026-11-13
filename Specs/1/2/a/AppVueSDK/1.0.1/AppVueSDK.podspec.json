@@ -1,0 +1,20 @@
+{
+  "name": "AppVueSDK",
+  "version": "1.0.1",
+  "summary": "AppVue SDK",
+  "homepage": "https://www.appvue.net",
+  "license": {
+    "type": "MIT",
+    "file": "AppVueSDK-v1.0.1/LICENSE"
+  },
+  "authors": "AppVue",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "http": "https://console.appvue.net/download/AppVueSDK-v1.0.1.zip",
+    "type": "zip",
+    "sha256": "a0e067b4a044eb13052f7a24859077eef8aa72234dcf572b51e7090a38ab15a7"
+  },
+  "vendored_frameworks": "AppVueSDK-v1.0.1/AppVueSDK.xcframework"
+}

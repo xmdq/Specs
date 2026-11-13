@@ -1,0 +1,37 @@
+{
+  "name": "AthanaSDK",
+  "version": "1.1.2",
+  "summary": "Athana SDK",
+  "homepage": "https://athana.inonesdk.com",
+  "authors": "CWJoy",
+  "source": {
+    "http": "https://athana.inonesdk.com/ios/sdk/1.1.2/AthanaSDK.xcframework.zip",
+    "type": "zip"
+  },
+  "license": {
+    "type": "CWJoy Software License Agreement",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "AthanaSDK.xcframework",
+  "resource_bundles": {
+    "AthanaSDK": [
+      "AthanaSDK.xcframework/ios-arm64/*.framework/*.lproj",
+      "AthanaSDK.xcframework/ios-arm64/*.framework/*.car",
+      "AthanaSDK.xcframework/ios-arm64/*.framework/*.xcprivacy"
+    ]
+  },
+  "static_framework": true,
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AthanaCore": [
+      "~> 1.1.2"
+    ]
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Cardly",
+  "version": "1.0.0",
+  "summary": "高性能卡片堆叠容器 UI 组件",
+  "description": "Cardly 是一个高性能的卡片堆叠容器视图，\n灵感来自 Tinder 和 Koloda。\n\n特性：\n- 流畅的手势拖拽交互\n- 可配置的动画参数\n- 支持自定义 Overlay（LIKE/NOPE 效果）\n- 预加载和批量操作支持\n- 零第三方库依赖",
+  "homepage": "https://github.com/OnlyJeremy/Cardly",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "OnlyJeremy": "songjinfeng2@163.com"
+  },
+  "source": {
+    "git": "https://github.com/OnlyJeremy/Cardly.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Pod/Classes/**/*.swift",
+  "swift_version": "5.0"
+}

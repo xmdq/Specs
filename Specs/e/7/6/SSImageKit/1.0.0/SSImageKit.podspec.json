@@ -1,0 +1,55 @@
+{
+  "name": "SSImageKit",
+  "version": "1.0.0",
+  "summary": "Comprehensive image editing toolkit for SwiftUI apps.",
+  "description": "Unleash the full visual potential of your SwiftUI apps with SSImageKit, a comprehensive image editing toolkit designed for seamless integration. Its powerful engine delivers real-time, non-destructive editing through a suite of customizable UI components, empowering you to effortlessly craft stunning visuals with intuitive controls and boundless creative freedom.",
+  "homepage": "https://github.com/SimformSolutionsPvtLtd/SSImageKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Krunal Patel": "krunal.patel@simformsolutions.com"
+  },
+  "source": {
+    "git": "https://github.com/SimformSolutionsPvtLtd/SSImageKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "16.0",
+    "osx": "13.0"
+  },
+  "swift_versions": [
+    "5.9"
+  ],
+  "default_subspecs": [
+    "Engine",
+    "UI"
+  ],
+  "subspecs": [
+    {
+      "name": "Engine",
+      "source_files": "Sources/SSImageKitEngine/**/*.{swift}",
+      "resource_bundles": {
+        "SSImageKitEngine": [
+          "Sources/SSImageKitEngine/Resources/**/*"
+        ]
+      }
+    },
+    {
+      "name": "UI",
+      "source_files": "Sources/SSImageKitUI/**/*.{swift}",
+      "resource_bundles": {
+        "SSImageKitUI": [
+          "Sources/SSImageKitUI/Resources/**/*"
+        ]
+      },
+      "dependencies": {
+        "SSImageKit/Engine": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.9"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CustomActivityRingiOS",
+  "version": "0.3.3",
+  "summary": "Library to use with some custom function.",
+  "description": "CustomActivityRingiOS is a library to use with some custom function. User can set custom activity ring colors.",
+  "homepage": "https://github.com/jaydev6228/CustomActivityRingiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaydev6228": "jaydevbaloliya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaydev6228/CustomActivityRingiOS.git",
+    "tag": "0.3.3"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "CustomActivityRingiOS/Classes/**/*",
+  "swift_version": "5.0"
+}

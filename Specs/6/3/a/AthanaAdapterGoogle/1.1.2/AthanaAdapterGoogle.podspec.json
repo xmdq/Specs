@@ -1,0 +1,45 @@
+{
+  "name": "AthanaAdapterGoogle",
+  "version": "1.1.2",
+  "summary": "Athana SDK - Adapter - Google",
+  "homepage": "https://athana.inonesdk.com",
+  "authors": "CWJoy",
+  "source": {
+    "git": "https://github.com/AthanaSDK/Athana-SDK-iOS.git",
+    "tag": "1.1.2"
+  },
+  "license": {
+    "type": "CWJoy Software License Agreement",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Sources/AthanaAdapterGoogle/**/*.swift",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AthanaCore": [
+      "~> 1.1.2"
+    ],
+    "GoogleSignIn": [
+      ">= 7.0.0"
+    ]
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "testspecs": [
+    {
+      "name": "swift-unit",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "13.0"
+      },
+      "source_files": [
+        "Tests/AthanaAdapterGoogleTests/**/*.swift",
+        "Tests/AthanaAdapterGoogleTests/**/*.h"
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

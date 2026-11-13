@@ -1,0 +1,23 @@
+{
+  "name": "LimelightSDK",
+  "version": "0.1.2",
+  "swift_versions": "5.10",
+  "authors": {
+    "Limelight": "info@limelight.inc"
+  },
+  "social_media_url": "https://www.limelight.inc/",
+  "license": "Proprietary",
+  "homepage": "https://www.limelight.inc/",
+  "source": {
+    "http": "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/0.1.2/LimelightSDK-combined.xcframework.zip"
+  },
+  "summary": "Limelight",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": [
+    "LimelightSDK.xcframework",
+    "OMSDK_Limelightinc.xcframework"
+  ],
+  "swift_version": "5.10"
+}

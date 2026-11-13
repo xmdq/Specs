@@ -1,0 +1,36 @@
+{
+  "name": "SYbaseCommunication",
+  "version": "1.0.0",
+  "summary": "ANBridge iOS communication layer (WebView / DSBridge / modules)",
+  "description": "Core Objective-C layer for ANBridge: ANBridgeModule, ANBridgeResponse, Communicator, ANWebView.",
+  "homepage": "https://gitee.com/zsy.com",
+  "license": {
+    "type": "ISC",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ANBridge": "https://gitee.com/zsy.com"
+  },
+  "source": {
+    "git": "https://gitee.com/zsy.com/SYbaseCommunication.git",
+    "tag": "1.0.0"
+  },
+  "module_name": "ANBridgeCommunication",
+  "module_map": "module.modulemap",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "*.{h,m}",
+  "preserve_paths": "module.modulemap",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "WebKit"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "dsBridge": [
+      "~> 3.0.6"
+    ]
+  }
+}

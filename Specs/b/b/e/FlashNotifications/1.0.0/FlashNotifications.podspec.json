@@ -1,0 +1,24 @@
+{
+  "name": "FlashNotifications",
+  "version": "1.0.0",
+  "summary": "Beautiful and customizable iOS notifications framework",
+  "description": "FlashNotifications is a lightweight and easy-to-use notifications framework for iOS.\nIt provides a simple API for displaying beautiful, customizable notifications.\nThe framework is distributed as a pre-compiled binary for fast integration.",
+  "homepage": "https://github.com/Souravkumarsingh/FlashNotifications",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sourav Kumar Singh": "sauravkumarsingh.singh@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/Souravkumarsingh/FlashNotifications/releases/download/1.0.0/FlashNotifications.xcframework.zip"
+  },
+  "vendored_frameworks": "FlashNotifications.xcframework",
+  "requires_arc": false,
+  "swift_version": "5.0"
+}

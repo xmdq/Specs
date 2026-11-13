@@ -1,0 +1,41 @@
+{
+  "name": "MSPSharedLibraries",
+  "summary": "An utility helper for MSP",
+  "description": "An utility for MSP settings",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "MSPiOSCore": [
+      "3.6.16-test"
+    ]
+  },
+  "version": "3.6.16-test",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.6.16-test/MSPSharedLibraries-3.6.16-test.zip",
+    "type": "zip",
+    "sha256": "afd658a5b34b8ad2639b86ab508b66e21cac5e70281d0e142870aceb9ca48772"
+  },
+  "vendored_frameworks": [
+    "Binary/MSPSharedLibraries.xcframework",
+    "ThirdParty/PrebidMobile/PrebidMobile.xcframework",
+    "ThirdParty/MSPSnapKit/MSPSnapKit.xcframework",
+    "Sources/Core/ThirdParty/Kingfisher/Kingfisher.xcframework",
+    "ThirdParty/OMSDK/OMSDK_Newsbreak1.xcframework"
+  ],
+  "swift_version": "5.0"
+}

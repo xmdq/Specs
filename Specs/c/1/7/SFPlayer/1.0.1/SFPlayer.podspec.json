@@ -1,0 +1,31 @@
+{
+  "name": "SFPlayer",
+  "version": "1.0.1",
+  "summary": "A lightweight custom video player based on AVFoundation.",
+  "description": "SFPlayer is a simple and customizable video player component for iOS projects.",
+  "homepage": "https://github.com/ChinaKeep/SFPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Keep": "1329905627@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ChinaKeep/SFPlayer.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "source_files": "SFPlayer/SFVideoPlayer/**/*.{h,m}",
+  "public_header_files": "SFPlayer/SFVideoPlayer/SFPlayer.h",
+  "resources": [
+    "SFPlayer/SFVideoPlayer/ImageResources.bundle"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ]
+}

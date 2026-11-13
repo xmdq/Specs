@@ -1,0 +1,26 @@
+{
+  "name": "AFOSQLite",
+  "version": "0.1.1",
+  "summary": "Sqlite related operations.",
+  "description": "Operate sqlite database based on FMDB.",
+  "homepage": "https://github.com/PangDuTechnology/AFOSQLite.git",
+  "license": "MIT",
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFOSQLite.git",
+    "tag": "0.1.1"
+  },
+  "source_files": "AFOSQLite/**/*.{h,m}",
+  "public_header_files": "AFOSQLite/**/*.h",
+  "requires_arc": true,
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
+}

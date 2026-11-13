@@ -1,0 +1,36 @@
+{
+  "name": "FHXFloatingButton",
+  "version": "0.1.0",
+  "summary": "A short description of FHXFloatingButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fenghanxu/FHXFloatingButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fenghanxu": "qq384170231@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fenghanxu/FHXFloatingButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "public_header_files": [
+    "MoveLoginBtn/**/*.h",
+    "MoveLoginBtn/*/**/*.h",
+    "MoveLoginBtn/*/*/**/*.h"
+  ],
+  "source_files": [
+    "MoveLoginBtn/**",
+    "MoveLoginBtn/*/**",
+    "MoveLoginBtn/*/*/**"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true
+}

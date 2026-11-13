@@ -1,0 +1,31 @@
+{
+  "name": "OkayID",
+  "version": "2.0.0",
+  "summary": "OkayID Mobile SDK.",
+  "description": "OkayID Mobile SDK, including the BlinkID-powered MyKad V2 capture flow.",
+  "homepage": "https://innov8tif.com",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Innov8tif": "ekyc.team@innov8tif.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/innov8tif-public/cocoapods/okayid-mobile-sdk.git",
+    "tag": "v2.0.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "6.0",
+  "vendored_frameworks": [
+    "OkayID.xcframework",
+    "Frameworks/XenUtil.xcframework",
+    "Frameworks/XenIdentity.xcframework",
+    "Frameworks/MediaPipeTasksCommon.xcframework",
+    "Frameworks/MediaPipeTasksVision.xcframework",
+    "Frameworks/XenPassportNFC.xcframework"
+  ],
+  "swift_version": "6.0"
+}

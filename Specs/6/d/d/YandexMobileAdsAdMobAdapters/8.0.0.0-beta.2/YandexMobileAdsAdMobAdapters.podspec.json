@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+      "~> 12.14.0"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0-beta.2"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "YandexMobileAdsAdMobAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "README.md",
+    "YandexMobileAdsAdMobAdapters.xcframework"
+  ],
+  "public_header_files": [
+    "YandexMobileAdsAdMobAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/YandexMobileAdsAdMobAdapters/8.0.0.0-beta.2/cocoapods/c0a7f740-29cd-4693-b909-a37f3a3a96ac.zip",
+    "sha256": "113eb2613330eba1c258fcc9e56a785f53312ecbf4c1444721f0d4bf66531f23"
+  },
+  "source_files": [
+    "YandexMobileAdsAdMobAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "Yandex Mobile Ads adapters for AdMob",
+  "vendored_frameworks": [
+    "YandexMobileAdsAdMobAdapters.xcframework"
+  ],
+  "version": "8.0.0.0-beta.2",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

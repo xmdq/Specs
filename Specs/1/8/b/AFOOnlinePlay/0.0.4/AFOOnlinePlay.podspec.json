@@ -1,0 +1,29 @@
+{
+  "name": "AFOOnlinePlay",
+  "version": "0.0.4",
+  "summary": "AFO 在线播放模块",
+  "description": "提供在线播放入口（输入链接 -> 播放）并作为 TabBar 子模块集成。",
+  "homepage": "https://github.com/PangDuTechnology/AFOOnlinePlay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFOOnlinePlay.git",
+    "tag": "0.0.4"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "source_files": "AFOOnlinePlay/**/*.{h,m}",
+  "public_header_files": "AFOOnlinePlay/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AVKit"
+  ]
+}

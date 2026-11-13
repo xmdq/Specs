@@ -1,0 +1,34 @@
+{
+  "name": "StoreKitMadeEasy",
+  "version": "1.0.0",
+  "summary": "A lightweight, modern StoreKit 2 In-App Purchase framework for Swift.",
+  "description": "StoreKitMadeEasy is a pure Swift In-App Purchase library built on top of Apple's StoreKit 2.\nIt simplifies StoreKit 2 implementation with automatic transaction listening, JWS verification,\nsubscription lifecycle tracking, free trial eligibility checks, native refund and subscription\nmanagement sheets, and offline SwiftUI preview mocking.",
+  "homepage": "https://github.com/zoraizbutt/StoreKitMadeEasy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zoraiz Hassan": "developer@example.com"
+  },
+  "source": {
+    "git": "https://github.com/zoraizbutt/StoreKitMadeEasy.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "osx": "12.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "5.10",
+    "6.0"
+  ],
+  "source_files": "Sources/StoreKitMadeEasy/**/*.swift",
+  "frameworks": [
+    "StoreKit",
+    "Combine",
+    "SwiftUI"
+  ],
+  "swift_version": "6.0"
+}

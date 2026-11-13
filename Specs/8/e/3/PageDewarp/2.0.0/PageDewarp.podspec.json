@@ -1,0 +1,61 @@
+{
+  "name": "PageDewarp",
+  "version": "2.0.0",
+  "summary": "Page dewarping for document images",
+  "homepage": "https://github.com/erykpiast/page-dewarp-swift",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Eryk Napierala": "eryk@napierala.pl"
+  },
+  "source": {
+    "git": "https://github.com/erykpiast/page-dewarp-swift.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.9",
+  "static_framework": true,
+  "libraries": "c++",
+  "frameworks": [
+    "UIKit",
+    "Accelerate"
+  ],
+  "dependencies": {
+    "opencv-rne": [
+      "~> 4.11"
+    ]
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "CLBFGSB",
+      "source_files": "Sources/CLBFGSB/**/*.{c,h}",
+      "public_header_files": "Sources/CLBFGSB/include/*.h",
+      "header_dir": "CLBFGSB"
+    },
+    {
+      "name": "OpenCVBridge",
+      "source_files": "Sources/OpenCVBridge/**/*.{h,m,mm}",
+      "public_header_files": "Sources/OpenCVBridge/include/*.h",
+      "pod_target_xcconfig": {
+        "CLANG_CXX_LANGUAGE_STANDARD": "c++17"
+      }
+    },
+    {
+      "name": "Core",
+      "source_files": "Sources/PageDewarp/**/*.swift",
+      "dependencies": {
+        "PageDewarp/OpenCVBridge": [
+
+        ],
+        "PageDewarp/CLBFGSB": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.9"
+}

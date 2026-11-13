@@ -1,0 +1,32 @@
+{
+  "name": "AthanaAdapterMeta",
+  "version": "1.1.1",
+  "summary": "Athana SDK - Adapter - Meta",
+  "homepage": "https://athana.inonesdk.com",
+  "authors": "CWJoy",
+  "source": {
+    "git": "https://github.com/AthanaSDK/Athana-SDK-iOS.git",
+    "tag": "1.1.1"
+  },
+  "license": {
+    "type": "CWJoy Software License Agreement",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Sources/AthanaAdapterMeta/**/*.swift",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AthanaCore": [
+      "~> 1.1.1"
+    ],
+    "FBSDKLoginKit": [
+      ">= 18.0.0"
+    ]
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
+}

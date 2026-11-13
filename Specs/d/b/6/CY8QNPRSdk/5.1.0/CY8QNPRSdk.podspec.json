@@ -1,0 +1,88 @@
+{
+  "name": "CY8QNPRSdk",
+  "version": "5.1.0",
+  "summary": "aa ads ios sdk",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hzsxwl/CY8QNPRSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3318596470@qq.com": "3318596470@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hzsxwl/CY8QNPRSdk.git",
+    "tag": "5.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "CY8QNPRSdk/Classes/**/*",
+  "public_header_files": [
+    "CY8QNPRSdk/Classes/**/PlmoknAdsSDK.h",
+    "CY8QNPRSdk/Classes/**/PlmoknRequest.h",
+    "CY8QNPRSdk/Classes/**/PlmoknSplash.h",
+    "CY8QNPRSdk/Classes/**/PlmoknInterstitial.h",
+    "CY8QNPRSdk/Classes/**/PlmoknReward.h",
+    "CY8QNPRSdk/Classes/**/PlmoknAdSdk.h",
+    "CY8QNPRSdk/Classes/**/PlmoknBanner.h",
+    "CY8QNPRSdk/Classes/**/PlmoknNativeAdView.h",
+    "CY8QNPRSdk/Classes/**/PlmoknNativeAd.h",
+    "CY8QNPRSdk/Classes/**/PlmoknNativeAdManager.h"
+  ],
+  "vendored_libraries": "CY8QNPRSdk/Libraries/libCY8QNPRSdk-iOS.a",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MobileCoreServices",
+    "CoreGraphics",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "AdSupport",
+    "CoreData",
+    "StoreKit",
+    "AVFoundation",
+    "MediaPlayer",
+    "CoreMedia",
+    "WebKit",
+    "Accelerate",
+    "CoreLocation",
+    "AVKit",
+    "MessageUI",
+    "QuickLook",
+    "AudioToolBox",
+    "JavaScriptCore",
+    "CoreMotion",
+    "Photos"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9",
+    "sqlite3",
+    "c++",
+    "c++abi"
+  ],
+  "dependencies": {
+    "ToBid-iOS/GDTAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/BaiduAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/KSAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/TouTiaoAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/CSJMediationAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/AdScopeAdapter": [
+      "4.7.0"
+    ]
+  },
+  "static_framework": true
+}

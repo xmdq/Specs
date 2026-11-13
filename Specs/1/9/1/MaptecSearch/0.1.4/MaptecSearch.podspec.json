@@ -1,0 +1,25 @@
+{
+  "name": "MaptecSearch",
+  "version": "0.1.4",
+  "summary": "Maptec Search services for iOS.",
+  "homepage": "https://www.maptec.com",
+  "authors": {
+    "MaptecMaps Team": "dev@maptec.com"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "http": "https://packages.maptec.com/ios/search/0.1.4/MaptecSearch.xcframework.zip",
+    "sha256": "abb91efc7a29b5342f693a8df3bc2bb8dbcb1de4e107aba20a5478db6884b69b"
+  },
+  "vendored_frameworks": "MaptecSearchKit.xcframework",
+  "dependencies": {
+    "MaptecFoundation": [
+      "0.1.4"
+    ]
+  }
+}

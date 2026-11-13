@@ -1,0 +1,190 @@
+{
+  "name": "TurboTobidAdapter-RC",
+  "version": "5.0.1",
+  "summary": "Turbo AD Adapter for ToBid",
+  "homepage": "https://markmedia.com.cn/#/",
+  "license": "MIT",
+  "authors": {
+    "lee": "417151840@qq.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/turboyjtx/TurboTobidAdapter-RC.git",
+    "tag": "5.0.1"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "default_subspecs": "Default",
+  "dependencies": {
+    "ToBid-iOS-RC": [
+      ">= 5.2.0"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "vendored_frameworks": [
+        "TurboTobidAdapter.framework"
+      ],
+      "dependencies": {
+        "AnyThinkiOS": [
+          "6.5.43"
+        ],
+        "AnyThinkMediationAdxSmartdigimktCNAdapter": [
+          "6.5.46.3"
+        ]
+      }
+    },
+    {
+      "name": "OAdapter",
+      "dependencies": {
+        "AnyThinkMediationZYAdapter": [
+          "2.5.9.28.2"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "BZAdapter",
+      "dependencies": {
+        "AnyThinkMediationBeiZiAdapter": [
+          "5.0.0.2.0"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "MSAdapter",
+      "dependencies": {
+        "AnyThinkMediationMSAdapter": [
+          "2.7.13.3.4"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "TTAdapter",
+      "dependencies": {
+        "AnyThinkMediationTTAdapter_Mix": [
+          "7.4.0.0.0"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "GMAdapter",
+      "dependencies": {
+        "AnyThinkMediationGromoreAdapter": [
+          "7.4.0.0.0"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "GDAdapter",
+      "dependencies": {
+        "AnyThinkMediationGDTAdapter": [
+          "4.15.70.1"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "KSAdapter",
+      "dependencies": {
+        "AnyThinkMediationKuaiShouAdapter": [
+          "4.12.20.1.0"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "BDAdapter",
+      "dependencies": {
+        "AnyThinkMediationBaiduAdapter": [
+          "10.032.1"
+        ],
+        "TurboTobidAdapter-RC/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Default",
+      "dependencies": {
+        "TurboTobidAdapter-RC/OAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/MSAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/BZAdapter": [
+
+        ]
+      }
+    },
+    {
+      "name": "SkipBig4",
+      "dependencies": {
+        "TurboTobidAdapter-RC/Default": [
+
+        ]
+      }
+    },
+    {
+      "name": "All",
+      "dependencies": {
+        "TurboTobidAdapter-RC/OAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/MSAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/BZAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/TTAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/GMAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/GDAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/KSAdapter": [
+
+        ],
+        "TurboTobidAdapter-RC/BDAdapter": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}

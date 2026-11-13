@@ -1,0 +1,41 @@
+{
+  "name": "TMKanqiSDK",
+  "version": "0.0.1",
+  "summary": "TM Kanqi analytics SDK for iOS",
+  "description": "TMKanqiSDK is a binary iOS analytics SDK distributed as a CocoaPods static library.",
+  "homepage": "https://www.360tianma.com",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright (c) Tianma. All rights reserved."
+  },
+  "authors": {
+    "Tianma": "support@360tianma.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://gitee.com/tmgc/tmkanqi-sdk.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TMFramework/TMKanqiSDK/Headers/*.{h}",
+  "public_header_files": "TMFramework/TMKanqiSDK/Headers/*.{h}",
+  "vendored_libraries": "TMFramework/TMKanqiSDK/Libraries/libYeefxSDK.a",
+  "frameworks": [
+    "CFNetwork",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore"
+  ],
+  "libraries": "sqlite3",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MaptecFoundation",
+  "version": "0.1.4",
+  "summary": "Maptec Foundation services for iOS.",
+  "homepage": "https://www.maptec.com",
+  "authors": {
+    "MaptecMaps Team": "dev@maptec.com"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "http": "https://packages.maptec.com/ios/foundation/0.1.4/MaptecFoundation.xcframework.zip",
+    "sha256": "c7e38cc9d1058cb3ffe42b422adfa41eb2e599c18b54d6a240ab665557f2bac2"
+  },
+  "vendored_frameworks": "MaptecFoundationKit.xcframework"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "BFRootTabbar",
+  "version": "0.1.0",
+  "summary": "Root tabbar container and startup host with launch cover support.",
+  "description": "BFRootTabbar provides a stable UITabBarController-based root container and\nstartup host infrastructure with launch transition cover handling and\nstartup overlay child controller support.",
+  "homepage": "https://gitee.com/bfchen/bftabbar.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BFChen": "bfchen@local.dev"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source": {
+    "git": "https://gitee.com/bfchen/bftabbar.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "Sources/**/*.swift",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "swift_version": "5.0"
+}

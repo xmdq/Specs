@@ -1,0 +1,25 @@
+{
+  "name": "AFOWaterfall",
+  "version": "0.1.0",
+  "summary": "Generic UICollectionView waterfall layout with pull-to-refresh hosting controller.",
+  "description": "AFOWaterfall provides a Pinterest-style waterfall UICollectionViewLayout with a delegate API\nsimilar to UICollectionViewDelegateFlowLayout, plus an optional UIViewController base class that\nwires UIRefreshControl to the collection view.",
+  "homepage": "https://github.com/PangDuTechnology/AFOWaterfall",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFOWaterfall.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "source_files": "AFOWaterfall/**/*.{h,m}",
+  "public_header_files": "AFOWaterfall/**/*.h",
+  "frameworks": "UIKit"
+}

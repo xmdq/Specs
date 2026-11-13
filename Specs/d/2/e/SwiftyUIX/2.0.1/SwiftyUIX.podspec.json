@@ -1,0 +1,26 @@
+{
+  "name": "SwiftyUIX",
+  "version": "2.0.1",
+  "summary": "SwiftyUIX is a library providing useful extensions and custom views to simplify iOS development.",
+  "description": "SwiftyUIX is a comprehensive library offering practical extensions and custom views for streamlined development on iOS and macOS.",
+  "homepage": "https://github.com/Mokshsuthar/SwiftyUIX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Moksh": "suthermukesh@gmail.com"
+  },
+  "social_media_url": "https://www.linkedin.com/in/moksh-suthar-5253841b5/",
+  "platforms": {
+    "ios": "17.0",
+    "osx": "12.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "git": "https://github.com/Mokshsuthar/SwiftyUIX.git",
+    "tag": "2.0.1"
+  },
+  "source_files": "SwiftyUIX/**/*.swift",
+  "swift_version": "5.9"
+}

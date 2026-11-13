@@ -14,6 +14,7 @@
   },
   "source": {
     "git": "https://github.com/p-sun/SwiftyTables.git",
+    "branch": "master",
     "tag": "1.0.0"
   },
   "source_files": "SwiftyTablesProject/SwiftyTables/**/*.{swift,h}"

@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "StartAppSDK": [
+      "~> 4.13.0"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0-beta.2"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "StartAppYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "README.md",
+    "StartAppYandexMobileAdsAdapters.xcframework"
+  ],
+  "public_header_files": [
+    "StartAppYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/StartAppYandexMobileAdsAdapters/4.13.0.0-beta.2/cocoapods/ae143095-ae8a-4371-a396-b86c9170386e.zip",
+    "sha256": "a18b9ad920ba0895080bbe0014aef29938ba5b403366a3ca9b0b5c6fdd128565"
+  },
+  "source_files": [
+    "StartAppYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "StartApp adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "StartAppYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "4.13.0.0-beta.2",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

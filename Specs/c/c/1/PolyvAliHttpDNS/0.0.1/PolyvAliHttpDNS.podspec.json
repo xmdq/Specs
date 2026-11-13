@@ -11,9 +11,9 @@
     "bqlin": "linbinqaun@polyv.net"
   },
   "source": {
-    "http": "http://repo.polyv.net/ios/download/AliHttpDNS/AliHttpDNS.zip"
+    "http": "http://repo.polyv.net/ios/download/AliHttpDNS/AliHttpDNS_0.0.1/UTMini.zip"
   },
-  "vendored_frameworks": "AliHttpDNS/*.framework",
+  "vendored_frameworks": "*.framework",
   "frameworks": [
     "CoreTelephony",
     "SystemConfiguration"
@@ -29,5 +29,27 @@
   "requires_arc": true,
   "platforms": {
     "ios": "8.0"
-  }
+  },
+  "subspecs": [
+    {
+      "name": "AlicloudBeacon",
+      "vendored_frameworks": "*.framework"
+    },
+    {
+      "name": "AlicloudHttpDNS",
+      "vendored_frameworks": "*.framework"
+    },
+    {
+      "name": "AlicloudUtils",
+      "vendored_frameworks": "*.framework"
+    },
+    {
+      "name": "UTDID",
+      "vendored_frameworks": "*.framework"
+    },
+    {
+      "name": "UTMini",
+      "vendored_frameworks": "*.framework"
+    }
+  ]
 }

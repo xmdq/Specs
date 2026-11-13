@@ -1,0 +1,34 @@
+{
+  "name": "BVSweeper",
+  "version": "0.0.3",
+  "summary": "BVSweeper framework shell",
+  "description": "BVSweeper framework shell.",
+  "homepage": "http://www.blackvision.net",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tian Yu": "tianyu@blackvision.net"
+  },
+  "source": {
+    "http": "https://libos-cn.oss-cn-shanghai.aliyuncs.com/sdk/ios/BVSweeper-0.0.3.zip",
+    "type": "zip"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "lib/*.xcframework",
+  "dependencies": {
+    "BVSmartHome": [
+
+    ],
+    "SwiftProtobuf": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "CloudFonMobileSDK",
+  "version": "1.0.1",
+  "summary": "CloudFon Mobile SDK for iOS",
+  "description": "CloudFon Mobile SDK for iOS - WebView based chat solution",
+  "homepage": "https://github.com/wilson-wang0311/cloudfon-mobile-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CloudFon Team": "dev@cloudfon.com"
+  },
+  "source": {
+    "git": "https://github.com/wilson-wang0311/cloudfon-mobile-sdk.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Sources/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.6"
+    ]
+  },
+  "swift_version": "5.9"
+}

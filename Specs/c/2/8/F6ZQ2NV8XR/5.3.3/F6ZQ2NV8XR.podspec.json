@@ -1,0 +1,76 @@
+{
+  "name": "F6ZQ2NV8XR",
+  "version": "5.3.3",
+  "summary": "sdk F6ZQ2NV8XR.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hzsxwl/F6ZQ2NV8XR",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3318596470@qq.com": "3318596470@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hzsxwl/F6ZQ2NV8XR.git",
+    "tag": "5.3.3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "F6ZQ2NV8XR/Classes/**/*",
+  "public_header_files": [
+    "F6ZQ2NV8XR/Classes/**/VrnAdsKit.h",
+    "F6ZQ2NV8XR/Classes/**/VrnAdDemand.h",
+    "F6ZQ2NV8XR/Classes/**/VrnLaunchAd.h",
+    "F6ZQ2NV8XR/Classes/**/VrnInterludeAd.h",
+    "F6ZQ2NV8XR/Classes/**/VrnPrizeAd.h",
+    "F6ZQ2NV8XR/Classes/**/VrnAdCenter.h",
+    "F6ZQ2NV8XR/Classes/**/VrnRibbonAd.h",
+    "F6ZQ2NV8XR/Classes/**/VrnContentAdRenderer.h",
+    "F6ZQ2NV8XR/Classes/**/VrnContentAd.h",
+    "F6ZQ2NV8XR/Classes/**/VrnContentAdLoader.h"
+  ],
+  "vendored_libraries": "F6ZQ2NV8XR/Libraries/libF6ZQ2NV8XR-iOS.a",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MobileCoreServices",
+    "CoreGraphics",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "AdSupport",
+    "CoreData",
+    "StoreKit",
+    "AVFoundation",
+    "MediaPlayer",
+    "CoreMedia",
+    "WebKit",
+    "Accelerate",
+    "CoreLocation",
+    "AVKit",
+    "MessageUI",
+    "QuickLook",
+    "AudioToolBox",
+    "JavaScriptCore",
+    "CoreMotion",
+    "Photos"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9",
+    "sqlite3",
+    "c++",
+    "c++abi"
+  ],
+  "dependencies": {
+    "ToBid-iOS/GDTAdapter": [
+      "5.5.3"
+    ],
+    "ToBid-iOS/AdScopeAdapter": [
+      "5.5.3"
+    ]
+  },
+  "static_framework": true
+}

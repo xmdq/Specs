@@ -1,0 +1,28 @@
+{
+  "name": "MMTToolForNordicDFU",
+  "version": "0.6.1",
+  "summary": "A tool for Nordic Device Firmware Update (DFU) over Bluetooth.",
+  "description": "MMTToolForNordicDFU provides a comprehensive solution for performing Device Firmware Update (DFU) \non Nordic Semiconductor devices over Bluetooth Low Energy (BLE). It simplifies the DFU process \nwith features including firmware package validation, progress tracking, and error handling. \nThe library supports ZIP-based firmware distribution and integrates seamlessly with iOS Bluetooth framework.",
+  "homepage": "https://github.com/NealWills/MMTToolForNordicDFU",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NealWills": "aoiiiiyuki@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/NealWills/MMTToolForNordicDFU.git",
+    "tag": "0.6.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MMTToolForNordicDFU/Classes/**/*",
+  "frameworks": "CoreBluetooth",
+  "dependencies": {
+    "ZIPFoundation": [
+
+    ]
+  }
+}

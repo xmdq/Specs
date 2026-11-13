@@ -1,0 +1,23 @@
+{
+  "name": "XYMCardTransition",
+  "version": "1.0.0",
+  "summary": "Native iOS card-to-detail zoom transitions for Objective-C apps.",
+  "description": "A small UIKit wrapper for iOS 18+ Zoom transitions with view alignment,",
+  "homepage": "https://github.com/MIKU-MIKU-39/XYMCardTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Xuyiming",
+  "source": {
+    "git": "https://github.com/MIKU-MIKU-39/XYMCardTransition.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "18.0"
+  },
+  "requires_arc": true,
+  "source_files": "Sources/*.{h,m}",
+  "public_header_files": "Sources/XYMCardTransition.h",
+  "frameworks": "UIKit"
+}

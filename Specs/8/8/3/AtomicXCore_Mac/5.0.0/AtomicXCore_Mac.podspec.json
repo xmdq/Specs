@@ -1,0 +1,31 @@
+{
+  "name": "AtomicXCore_Mac",
+  "version": "5.0.0",
+  "summary": "CoreView of LiveRoom for Mac.",
+  "homepage": "https://trtc.io/",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "trtc.io",
+  "source": {
+    "http": "https://liteav.sdk.cloudcachetci.com/app/tuikit/download/release/5.0/AtomicXCore_Mac_5.0.0.34_SDK.zip"
+  },
+  "static_framework": true,
+  "platforms": {
+    "osx": "11.0"
+  },
+  "xcconfig": {
+    "VALID_ARCHS": "arm64 x86_64"
+  },
+  "dependencies": {
+    "TXLiteAVSDK_TRTC_Mac": [
+
+    ],
+    "TXIMSDK_Plus_Mac": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "AtomicXCore_Mac.xcframework"
+  ]
+}

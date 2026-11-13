@@ -1,0 +1,54 @@
+{
+  "name": "AppMetricaIdentifiers",
+  "version": "7.0.0",
+  "summary": "AppMetrica utility modules that generates and provides identifiers",
+  "homepage": "https://appmetrica.io",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AppMetrica": "admin@appmetrica.io"
+  },
+  "source": {
+    "git": "https://github.com/appmetrica/appmetrica-sdk-ios.git",
+    "tag": "7.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "6.0"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "AppMetricaLogSwift": [
+      "= 7.0.0"
+    ],
+    "AppMetricaStorageUtils": [
+      "= 7.0.0"
+    ],
+    "AppMetricaKeychain": [
+      "= 7.0.0"
+    ],
+    "AppMetricaSynchronization": [
+      "= 7.0.0"
+    ],
+    "AppMetricaPlatform": [
+      "= 7.0.0"
+    ]
+  },
+  "header_dir": "AppMetricaIdentifiers",
+  "source_files": [
+    "AppMetricaIdentifiers/Sources/**/*.swift"
+  ],
+  "resource_bundles": {
+    "AppMetricaIdentifiers": "AppMetricaIdentifiers/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
+  "swift_version": "6.0"
+}

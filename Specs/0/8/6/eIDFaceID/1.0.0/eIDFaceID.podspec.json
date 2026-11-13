@@ -17,7 +17,7 @@
   "vendored_frameworks": "FaceID.framework",
   "dependencies": {
     "Alamofire": [
-      "~> 4.6"
+      "~> 4.5"
     ],
     "AlamofireObjectMapper": [
       "~> 4.1"

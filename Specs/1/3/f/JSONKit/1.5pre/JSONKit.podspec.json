@@ -6,9 +6,15 @@
   "homepage": "https://github.com/johnezang/JSONKit",
   "authors": "John Engelhart",
   "source": {
-    "git": "https://github.com/johnezang/JSONKit.git",
-    "commit": "0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce"
+    "git": "https://github.com/ReeFSpeK/JSONKit.git",
+    "tag": "1.5pre"
   },
   "source_files": "JSONKit.*",
-  "requires_arc": false
+  "requires_arc": false,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
 }

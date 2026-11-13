@@ -1,0 +1,39 @@
+{
+  "name": "NIS",
+  "version": "1.0.0",
+  "summary": "Composable networking layer for Swift",
+  "description": "NIS is a modern networking layer built with Swift concurrency.\n\nIt provides:\n- request adaptation\n- retry strategies\n- error parsing & interception\n- response analysis\n- in-flight deduplication\n- short-lived response reuse\n\nDesigned to be composable, predictable, and production-ready.",
+  "homepage": "https://github.com/matsotaa/nis",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrew Matsota": "matsotaandrew@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/matsotaa/nis.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "osx": "12.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "5.10"
+  ],
+  "module_name": "NIS",
+  "source_files": [
+    "Sources/NIS/**/*.swift"
+  ],
+  "frameworks": [
+    "Foundation",
+    "Combine",
+    "Security"
+  ],
+  "static_framework": true,
+  "requires_arc": true,
+  "swift_version": "5.10"
+}

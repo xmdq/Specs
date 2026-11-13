@@ -1,0 +1,40 @@
+{
+  "name": "amwalsdk",
+  "version": "1.1.87",
+  "summary": "AMWAL SDK for iOS",
+  "description": "The AMWAL SDK provides features for payment integration in iOS applications.",
+  "homepage": "https://github.com/amwal-pay/AnwalPaySDKNativeiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Amwal Pay": "amr.elskaan@amwal-pay.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.87/amwalsdk.zip"
+  },
+  "pod_target_xcconfig": {
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
+    "DEFINES_MODULE": "YES",
+    "ENABLE_BITCODE": "NO",
+    "VALID_ARCHS": "arm64 arm64e x86_64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "",
+    "ENABLE_TESTABILITY": "NO",
+    "CLANG_ENABLE_MODULES": "YES",
+    "CODE_SIGN_STYLE": "Automatic",
+    "DEVELOPMENT_TEAM": "$(DEVELOPMENT_TEAM)"
+  },
+  "vendored_frameworks": "Flutter/Release/*.xcframework",
+  "frameworks": "Flutter",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) \"${PODS_ROOT}/Flutter\" \"${PODS_ROOT}/amwalsdk/Flutter/Release\"",
+    "OTHER_LDFLAGS": "$(inherited) -framework Flutter",
+    "SWIFT_INCLUDE_PATHS": "$(inherited) \"${PODS_ROOT}/Flutter\" \"${PODS_ROOT}/amwalsdk/Flutter/Release\""
+  },
+  "swift_version": "5.0"
+}

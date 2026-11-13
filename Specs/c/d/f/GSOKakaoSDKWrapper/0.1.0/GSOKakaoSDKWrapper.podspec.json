@@ -1,0 +1,22 @@
+{
+  "name": "GSOKakaoSDKWrapper",
+  "version": "0.1.0",
+  "summary": "Kakao iOS SDK wrapper as a vendored XCFramework.",
+  "description": "GSOKakaoSDKWrapper distributes the Kakao iOS wrapper binary as a vendored\nXCFramework for CocoaPods integration.",
+  "homepage": "https://github.com/biligameTestPlatform/GSOKakaoSDKWrapper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jocer": "pjocer@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/biligameTestPlatform/GSOKakaoSDKWrapper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "vendored_frameworks": "GSOKakaoSDKWrapper/Vendor/GSOKakaoSDKWrapper.xcframework"
+}

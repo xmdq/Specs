@@ -1,0 +1,39 @@
+{
+  "name": "BDASignalSDK",
+  "version": "2.0.0",
+  "summary": "激活sdk",
+  "description": "用于广告主进行归因参数采集",
+  "homepage": "home",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "AchillesL2398": "AchillesL2398"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "https://github.com/oceanengine/bda_signal_sdk.git",
+    "branch": "main",
+    "tag": "2.0.0"
+  },
+  "vendored_frameworks": "lib/BDASignalRequestLib.xcframework",
+  "source_files": [
+    "BDASignalSDK",
+    "BDASignalSDK/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resource_bundles": {
+    "BDASignalSDK": [
+      "Assets/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "ENABLE_MODULES": "YES",
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.0"
+}

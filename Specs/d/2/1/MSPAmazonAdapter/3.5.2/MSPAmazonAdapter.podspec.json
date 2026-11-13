@@ -1,0 +1,48 @@
+{
+  "name": "MSPAmazonAdapter",
+  "summary": "an adapter for Amazon SDK",
+  "description": "an adapter for Amazon SDK for MSP S2S",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "MSPGoogleAdsTypes": [
+      "3.5.2"
+    ],
+    "AmazonPublisherServicesSDK": [
+      "4.5.5"
+    ],
+    "AmazonPublisherServicesAdMobAdapter": [
+      "2.2.0"
+    ],
+    "MSPSharedLibraries": [
+      "3.5.2"
+    ],
+    "MSPiOSCore": [
+      "3.5.2"
+    ]
+  },
+  "version": "3.5.2",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.5.2/MSPAmazonAdapter-3.5.2.zip",
+    "type": "zip",
+    "sha256": "5fe5cc0d09274b86ac9fe7e772d4479e6043d5b691206caae53fd3e39711ea2f"
+  },
+  "vendored_frameworks": "Binary/MSPAmazonAdapter.xcframework",
+  "swift_version": "5.0"
+}

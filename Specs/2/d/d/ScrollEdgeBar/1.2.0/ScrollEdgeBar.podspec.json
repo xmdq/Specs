@@ -1,0 +1,21 @@
+{
+  "name": "ScrollEdgeBar",
+  "version": "1.2.0",
+  "summary": "Sticky scroll edge bars with iOS 26 glass blur effect and an iOS 16+ plain fallback",
+  "homepage": "https://github.com/jensvansteen/ScrollEdgeBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Jens Van Steen",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source": {
+    "git": "https://github.com/jensvansteen/ScrollEdgeBar.git",
+    "tag": "1.2.0"
+  },
+  "source_files": "Sources/ScrollEdgeBar/**/*.{swift}",
+  "swift_versions": "6.2",
+  "swift_version": "6.2"
+}

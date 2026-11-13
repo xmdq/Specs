@@ -1,0 +1,40 @@
+{
+  "name": "PaymentsLk",
+  "version": "0.1.2",
+  "summary": "Open a Payments.lk hosted checkout from an iOS app.",
+  "description": "Opens a Payments.lk hosted checkout in ASWebAuthenticationSession, the system's\nown secure browser sheet, and answers the outcome from the checkout's return to\nyour app's URL scheme. Card details are entered on the hosted page, never in\nyour app, and your server confirms every payment.",
+  "homepage": "https://payments.lk/developers/sdks#ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Payments.lk": "hello@payments.lk"
+  },
+  "source": {
+    "git": "https://github.com/PAYable-IPG/payments-lk-ios.git",
+    "tag": "0.1.2"
+  },
+  "documentation_url": "https://payments.lk/developers/sdks#ios",
+  "swift_versions": [
+    "5.9"
+  ],
+  "platforms": {
+    "ios": "15.0",
+    "osx": "12.0"
+  },
+  "source_files": "Sources/PaymentsLk/**/*.swift",
+  "ios": {
+    "frameworks": [
+      "AuthenticationServices",
+      "UIKit"
+    ]
+  },
+  "osx": {
+    "frameworks": [
+      "AuthenticationServices",
+      "AppKit"
+    ]
+  },
+  "swift_version": "5.9"
+}

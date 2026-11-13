@@ -1,0 +1,51 @@
+{
+  "name": "AthanaAdapterFirebase",
+  "version": "1.1.2",
+  "summary": "Athana SDK - Adapter - Firebase",
+  "homepage": "https://athana.inonesdk.com",
+  "authors": "CWJoy",
+  "source": {
+    "git": "https://github.com/AthanaSDK/Athana-SDK-iOS.git",
+    "tag": "1.1.2"
+  },
+  "license": {
+    "type": "CWJoy Software License Agreement",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Sources/AthanaAdapterFirebase/**/*.swift",
+  "dependencies": {
+    "AthanaCore": [
+      "~> 1.1.2"
+    ],
+    "FirebaseAnalytics": [
+      ">= 11.4.0"
+    ],
+    "FirebaseCrashlytics": [
+      ">= 11.4.0"
+    ],
+    "FirebaseMessaging": [
+      ">= 11.4.0"
+    ]
+  },
+  "static_framework": true,
+  "swift_versions": [
+    "5.0"
+  ],
+  "testspecs": [
+    {
+      "name": "swift-unit",
+      "test_type": "unit",
+      "platforms": {
+        "ios": "13.0"
+      },
+      "source_files": [
+        "Tests/AthanaAdapterFirebaseTests/**/*.swift",
+        "Tests/AthanaAdapterFirebaseTests/**/*.h"
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

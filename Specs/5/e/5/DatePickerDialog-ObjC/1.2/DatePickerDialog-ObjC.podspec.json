@@ -2,7 +2,7 @@
   "name": "DatePickerDialog-ObjC",
   "version": "1.2",
   "summary": "Date picker dialog for iOS",
-  "homepage": "https://github.com/gameleon-dev/DatePickerDialog-iOS-ObjC",
+  "homepage": "https://github.com/leonluc-dev/DatePickerDialog-iOS-ObjC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,10 +11,10 @@
     "Leon Lucardie": "leonlucardie@gmail.com"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
   "source": {
-    "git": "https://github.com/gameleon-dev/DatePickerDialog-iOS-ObjC.git",
+    "git": "https://github.com/leonluc-dev/DatePickerDialog-iOS-ObjC.git",
     "tag": "1.2"
   },
   "source_files": "Sources/LSLDatePickerDialog.{h,m}",

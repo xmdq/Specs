@@ -1,0 +1,39 @@
+{
+  "name": "libxvidcore",
+  "version": "0.0.4",
+  "summary": "xvidcore.",
+  "description": "xvidcore for iOS.",
+  "homepage": "https://github.com/PangDuTechnology/libxvidcore.git",
+  "license": "MIT",
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/libxvidcore.git",
+    "tag": "0.0.4"
+  },
+  "source_files": "libxvidcore/include/*.h",
+  "header_mappings_dir": "libxvidcore/include",
+  "preserve_paths": "libxvidcore/**/**",
+  "vendored_libraries": "libxvidcore/lib/libxvidcore.a",
+  "libraries": [
+    "c",
+    "c++",
+    "z",
+    "iconv",
+    "bz2"
+  ],
+  "requires_arc": false,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) \"$(PODS_TARGET_SRCROOT)/libxvidcore/include\"",
+    "LIBRARY_SEARCH_PATHS": "$(inherited) \"$(PODS_TARGET_SRCROOT)/libxvidcore/lib\""
+  },
+  "user_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_ROOT}/libxvidcore/libxvidcore/include\"",
+    "LIBRARY_SEARCH_PATHS": "$(inherited) \"${PODS_ROOT}/libxvidcore/libxvidcore/lib\""
+  }
+}

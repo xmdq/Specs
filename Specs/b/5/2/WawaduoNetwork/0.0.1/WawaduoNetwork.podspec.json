@@ -1,0 +1,38 @@
+{
+  "name": "WawaduoNetwork",
+  "version": "0.0.1",
+  "summary": "娃娃多的网络请求封装库",
+  "description": "娃娃多的网络请求封装库，一次封装，多次使用",
+  "homepage": "https://gitee.com/librarybyself/wawaduo-network",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wawaduo": "1739276634@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/librarybyself/wawaduo-network.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "WawaduoNetwork/Classes/**/*",
+  "resource_bundles": {
+    "WawaduoNetwork": [
+      "WawaduoNetwork/Assets/**/*"
+    ]
+  },
+  "frameworks": [
+    "Photos",
+    "UIKit"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.11.1"
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "MSPPrebidAdapter",
+  "summary": "Prebid adapter for MSP SDK",
+  "description": "Adapter for PrebidMobile integration for MSP S2S",
+  "homepage": "https://github.com/ParticleMedia/msp-ios-sdk-public",
+  "license": "Copyright",
+  "authors": {
+    "huanzhiNB": "huanzhi.zhang@newsbreak.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(inherited) $(PODS_CONFIGURATION_BUILD_DIR)"
+  },
+  "dependencies": {
+    "MSPSharedLibraries": [
+      "3.6.15"
+    ],
+    "MSPiOSCore": [
+      "3.6.15"
+    ]
+  },
+  "version": "3.6.15",
+  "source": {
+    "http": "https://github.com/ParticleMedia/msp-ios-sdk-public/releases/download/3.6.15/MSPPrebidAdapter-3.6.15.zip",
+    "type": "zip",
+    "sha256": "e6374bafe8e3cc58b37e9cbc1aef95bf3f85c20c008fccc2ca2b22a86014dc63"
+  },
+  "vendored_frameworks": "Binary/MSPPrebidAdapter.xcframework",
+  "swift_version": "5.0"
+}

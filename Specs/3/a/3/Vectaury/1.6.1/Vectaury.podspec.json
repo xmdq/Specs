@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "Consent-String": [
-
+      "~> 1.0"
     ]
   }
 }

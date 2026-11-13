@@ -1,0 +1,32 @@
+{
+  "name": "SYTestNetwork",
+  "version": "1.0.0",
+  "summary": "ANBridge iOS bridge module (SYTestNetwork)",
+  "description": "Generated Objective-C bridge module for ANBridge (SYTestNetwork).",
+  "homepage": "https://gitee.com/zsy.com",
+  "license": {
+    "type": "ISC",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ANBridge": "https://gitee.com/zsy.com"
+  },
+  "source": {
+    "git": "https://gitee.com/zsy.com/SYTestNetwork.git",
+    "tag": "1.0.0"
+  },
+  "module_name": "ANBridgeSYTestNetwork",
+  "module_map": "module.modulemap",
+  "dependencies": {
+    "SYbaseCommunication": [
+      "~> 1.0.0"
+    ]
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "*.{h,m}",
+  "preserve_paths": "module.modulemap",
+  "frameworks": "Foundation",
+  "requires_arc": true
+}

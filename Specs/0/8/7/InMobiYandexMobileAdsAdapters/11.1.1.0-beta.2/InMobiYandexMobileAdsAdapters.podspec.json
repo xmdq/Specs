@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "InMobiSDK": [
+      "~> 11.1.1"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0-beta.2"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "InMobiYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "CHANGELOG.md",
+    "InMobiYandexMobileAdsAdapters.xcframework",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "public_header_files": [
+    "InMobiYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/InMobiYandexMobileAdsAdapters/11.1.1.0-beta.2/cocoapods/f8956613-20fd-400f-9757-c2374aadd807.zip",
+    "sha256": "0f874320c25aea8caeed657a2064f28bccc2aac431fb8ee001af131d1242ec61"
+  },
+  "source_files": [
+    "InMobiYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "InMobi adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "InMobiYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "11.1.1.0-beta.2",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

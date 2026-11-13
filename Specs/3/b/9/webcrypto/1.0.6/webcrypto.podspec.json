@@ -1,0 +1,22 @@
+{
+  "name": "webcrypto",
+  "version": "1.0.6",
+  "summary": "Security research placeholder for webcrypto.",
+  "description": "This is a security research placeholder for the webcrypto library to prevent unauthorized dependency confusion. \nThis package is currently under coordinated disclosure.",
+  "homepage": "https://github.com/google/webcrypto.dart",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Security Research": "ilhamalazis741@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ilhamal7/webcrypto.dart",
+    "branch": "master"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.11"
+  },
+  "source_files": "Classes/**/*"
+}

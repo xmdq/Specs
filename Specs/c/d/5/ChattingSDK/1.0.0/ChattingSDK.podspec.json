@@ -1,0 +1,65 @@
+{
+  "name": "ChattingSDK",
+  "version": "1.0.0",
+  "summary": "Visitor-side iOS chat SDK for Chatting.",
+  "description": "ChattingSDK lets iOS apps embed Chatting visitor chat with conversation creation,\nmessaging, email capture, identify calls, typing updates, live SSE sync, and a\nlightweight SwiftUI wrapper.",
+  "homepage": "https://github.com/codelinglabs/chatting",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright 2026 Codeling Labs. All rights reserved."
+  },
+  "authors": {
+    "Codeling Labs": "hello@usechatting.com"
+  },
+  "source": {
+    "git": "https://github.com/codelinglabs/chatting.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": [
+    "5.9"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "15.0",
+    "osx": "12.0"
+  },
+  "default_subspecs": [
+    "Core",
+    "UI"
+  ],
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "requires_app_host": false,
+      "source_files": "ios/ChattingSDK/Tests/ChattingSDKTests/**/*.swift",
+      "dependencies": {
+        "ChattingSDK/Core": [
+
+        ]
+      }
+    }
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "ios/ChattingSDK/Sources/ChattingSDK/**/*.swift",
+      "frameworks": "Foundation"
+    },
+    {
+      "name": "UI",
+      "dependencies": {
+        "ChattingSDK/Core": [
+
+        ]
+      },
+      "source_files": "ios/ChattingSDK/Sources/ChattingSDKUI/**/*.swift",
+      "frameworks": [
+        "SwiftUI",
+        "Combine",
+        "Foundation"
+      ]
+    }
+  ],
+  "swift_version": "5.9"
+}

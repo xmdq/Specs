@@ -1,0 +1,40 @@
+{
+  "name": "AppMetricaLibraryAdapter",
+  "version": "7.0.0",
+  "summary": "Universal adapter library for AppMetrica SDK to send ad impressions.",
+  "homepage": "https://appmetrica.io",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AppMetrica": "admin@appmetrica.io"
+  },
+  "source": {
+    "git": "https://github.com/appmetrica/appmetrica-sdk-ios.git",
+    "tag": "7.0.0"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "6.0"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+    "AppMetricaCore": [
+      "= 7.0.0"
+    ],
+    "AppMetricaCoreExtension": [
+      "= 7.0.0"
+    ]
+  },
+  "header_dir": "AppMetricaLibraryAdapter",
+  "source_files": "AppMetricaLibraryAdapter/Sources/**/*.swift",
+  "resource_bundles": {
+    "AppMetricaLibraryAdapter": "AppMetricaLibraryAdapter/Sources/Resources/PrivacyInfo.xcprivacy"
+  },
+  "swift_version": "6.0"
+}

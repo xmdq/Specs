@@ -1,0 +1,24 @@
+{
+  "name": "EdgeVedaCore",
+  "version": "2.3.1",
+  "summary": "On-device AI inference engine for Edge Veda SDK",
+  "description": "Pre-built dynamic XCFramework containing llama.cpp, whisper.cpp, and\nstable-diffusion.cpp with Metal GPU acceleration for iOS. This pod is\nconsumed by the edge_veda Flutter plugin — not intended for direct use.",
+  "homepage": "https://github.com/ramanujammv1988/edge-veda",
+  "license": {
+    "type": "Apache-2.0"
+  },
+  "authors": {
+    "Edge Veda": "contact@edgeveda.com"
+  },
+  "source": {
+    "http": "https://github.com/ramanujammv1988/edge-veda/releases/download/v2.3.1/EdgeVedaCore.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "EdgeVedaCore.xcframework",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  }
+}

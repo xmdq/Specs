@@ -1,0 +1,40 @@
+{
+  "name": "EncoreObjC",
+  "version": "0.1.0",
+  "summary": "Objective-C overlay for the Encore iOS SDK.",
+  "description": "Thin @objc wrapper over EncoreKit. Lets Objective-C apps consume the\nEncore SDK without pulling in Swift-only types (structs, associated-value\nenums, async/await, Combine). Distributed as a source pod — depends on\nEncoreKit at an exact pinned version.",
+  "homepage": "https://github.com/EncoreKit/objc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Encore": "support@encorekit.com"
+  },
+  "source": {
+    "git": "https://github.com/EncoreKit/objc.git",
+    "tag": "v0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source_files": "Sources/EncoreObjC/**/*.swift",
+  "dependencies": {
+    "EncoreKit": [
+      "1.4.42"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "SWIFT_INSTALL_OBJC_HEADER": "YES",
+    "CLANG_ENABLE_MODULES": "YES",
+    "APPLICATION_EXTENSION_API_ONLY": "NO"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "StoreKit"
+  ],
+  "swift_version": "5.9"
+}

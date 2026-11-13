@@ -1,0 +1,36 @@
+{
+  "name": "PlaceholderUITextView",
+  "version": "2.0.0",
+  "summary": "A feature-rich UITextView subclass with built-in placeholder support and accessibility.",
+  "description": "PlaceholderUITextView is a drop-in replacement for UITextView that adds native placeholder functionality.\n\nFeatures:\n• Native placeholder support with plain text and attributed text\n• Full accessibility support with VoiceOver\n• Smooth animations and modern Swift API design\n• Automatic sizing and constraint management\n• iOS 15+ support with backwards compatibility\n• Comprehensive unit test coverage",
+  "homepage": "https://github.com/hoangtaiki/PlaceholderUITextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hoangtaiki": "duchoang.vp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hoangtaiki/PlaceholderUITextView.git",
+    "tag": "2.0.0"
+  },
+  "social_media_url": "https://twitter.com/hoangtaiki",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Source/**/*.{swift,h}",
+  "public_header_files": "Source/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0",
+    "OTHER_SWIFT_FLAGS": "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100"
+  },
+  "documentation_url": "https://github.com/hoangtaiki/PlaceholderUITextView/blob/master/README.md",
+  "swift_version": "5.0"
+}

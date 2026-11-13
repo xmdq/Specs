@@ -1,0 +1,28 @@
+{
+  "name": "OTASDK",
+  "version": "1.0.0",
+  "summary": "BLE OTA SDK for PHY devices",
+  "description": "A Bluetooth Low Energy (BLE) Over-The-Air (OTA) firmware update SDK for PHY devices.",
+  "homepage": "https://github.com/phy-sz-app/OTASDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenshuangchao": "915893620@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/phy-sz-app/OTASDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "OTASDK/OTASDK/**/*.{h,m}",
+  "public_header_files": "OTASDK/OTASDK/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "CoreBluetooth"
+  ],
+  "requires_arc": true
+}

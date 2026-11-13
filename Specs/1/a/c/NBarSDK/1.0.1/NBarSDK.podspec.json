@@ -1,0 +1,65 @@
+{
+  "name": "NBarSDK",
+  "version": "1.0.1",
+  "summary": "NBarSDK",
+  "description": "NBarSDK is a barcode scanning SDK for iOS applications.",
+  "homepage": "https://github.com/kartel/NBarSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kartel": "neilliga@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kartel/NBarSDK.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "public_header_files": [
+    "iphone/*.h",
+    "iphone/**/**/*.h",
+    "include/*.h"
+  ],
+  "source_files": [
+    "include/zbar.h",
+    "zbar/**/*.h",
+    "iphone/*.h",
+    "iphone/include/**/*.h",
+    "zbar/{config,decoder,error,image,img_scanner,refcnt,scanner,symbol}.c",
+    "zbar/decoder/{codabar,code39,code93,code128,databar,ean,i25,qr_finder}.c",
+    "zbar/qrcode/*.c",
+    "iphone/*.m"
+  ],
+  "private_header_files": [
+    "zbar/**/*.h",
+    "iphone/ZBarCVImage.h"
+  ],
+  "resource_bundles": {
+    "NBarSDKResources": [
+      "iphone/res/*"
+    ]
+  },
+  "frameworks": [
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "QuartzCore",
+    "WebKit"
+  ],
+  "libraries": "iconv",
+  "prefix_header_file": "iphone/include/prefix.pch",
+  "requires_arc": false,
+  "compiler_flags": "-w -I\"$(PODS_TARGET_SRCROOT)/iphone/include\" -I\"$(PODS_TARGET_SRCROOT)/include\" -I\"$(PODS_TARGET_SRCROOT)/zbar\"",
+  "pod_target_xcconfig": {
+    "EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*]": "ZBarReaderViewImpl_Simulator.m",
+    "EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*]": "ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m",
+    "GCC_PREPROCESSOR_DEFINITIONS": "NDEBUG=1",
+    "USE_HEADERMAP": "NO",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/iphone/include $(PODS_TARGET_SRCROOT)/include $(PODS_TARGET_SRCROOT)/zbar $(inherited)",
+    "USER_HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/iphone/include $(PODS_TARGET_SRCROOT)/include $(PODS_TARGET_SRCROOT)/zbar $(inherited)"
+  }
+}

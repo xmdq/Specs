@@ -1,0 +1,48 @@
+{
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "dependencies": {
+    "AppLovinSDK": [
+      "~> 13.5.1"
+    ],
+    "YandexMobileAds": [
+      "~> 8.0.0"
+    ]
+  },
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "file": "LICENSE.txt",
+    "type": "PROPRIETARY"
+  },
+  "name": "AppLovinYandexMobileAdsAdapters",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "preserve_paths": [
+    "AppLovinYandexMobileAdsAdapters.xcframework",
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "public_header_files": [
+    "AppLovinYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "source": {
+    "http": "https://ads-mobile-sdk.s3.yandex.net/Yandex/AppLovinYandexMobileAdsAdapters/13.5.1.0/cocoapods/8c5d4fcc-9b43-49d6-b76c-64f7ccf2ca3b.zip",
+    "sha256": "4604e62f95e4961f82f6871f1a07dad1adef1c678b9f97301d5bb6f5c72ffb70"
+  },
+  "source_files": [
+    "AppLovinYandexMobileAdsAdapters.xcframework/**/*.h"
+  ],
+  "static_framework": true,
+  "summary": "AppLovin adapters for Yandex Mobile Ads SDK",
+  "vendored_frameworks": [
+    "AppLovinYandexMobileAdsAdapters.xcframework"
+  ],
+  "version": "13.5.1.0",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "swift_version": "5.9.0"
+}

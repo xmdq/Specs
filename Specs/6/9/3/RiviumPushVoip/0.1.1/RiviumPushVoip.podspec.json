@@ -1,0 +1,34 @@
+{
+  "name": "RiviumPushVoip",
+  "version": "0.1.1",
+  "summary": "Rivium Push VoIP SDK for iOS with CallKit support",
+  "description": "Rivium Push VoIP SDK provides native incoming call UI for iOS using CallKit.\nFeatures:\n- Native CallKit integration\n- PushKit VoIP push handling\n- Customizable caller info display\n- Background call handling\n- China/restricted region fallback",
+  "homepage": "https://rivium.co/cloud/rivium-push",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rivium": "support@rivium.co"
+  },
+  "source": {
+    "git": "https://github.com/Rivium-co/rivium-push-voip-ios-sdk.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "PushKit",
+    "CallKit",
+    "AVFoundation",
+    "UserNotifications"
+  ],
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "swift_version": "5.0"
+}

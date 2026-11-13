@@ -1,0 +1,25 @@
+{
+  "name": "BrazeNotificationService",
+  "version": "14.0.2",
+  "summary": "Braze notification service extension library providing support for Rich Push notifications.",
+  "homepage": "https://braze.com",
+  "documentation_url": "https://braze-inc.github.io/braze-swift-sdk/documentation/brazenotificationservice/",
+  "license": {
+    "type": "Commercial"
+  },
+  "authors": "Braze, Inc.",
+  "source": {
+    "http": "https://github.com/braze-inc/braze-swift-sdk/releases/download/14.0.2/BrazeNotificationService.zip",
+    "sha256": "9ff32d6779961da330cb1146b8e639a2c7d4b70a3f6c4629c9add95ad8284038"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "12.0",
+    "visionos": "1.0"
+  },
+  "vendored_frameworks": "BrazeNotificationService.xcframework",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "swift_version": "5.0"
+}

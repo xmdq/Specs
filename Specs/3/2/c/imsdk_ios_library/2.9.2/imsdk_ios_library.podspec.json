@@ -1,0 +1,25 @@
+{
+  "name": "imsdk_ios_library",
+  "version": "2.9.2",
+  "summary": "imsdk_ios_library",
+  "description": "iOS版本IM SDK 可以轻松打造具备聊天、社交功能的app。",
+  "homepage": "https://github.com/crproject007/imsdk_ios_library.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CRIMSDKCore": "https://github.com/crproject007/imsdk_ios_library.git"
+  },
+  "source": {
+    "git": "https://github.com/crproject007/imsdk_ios_library.git",
+    "tag": "2.9.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "ARCHS[sdk=iphonesimulator*]": "$(ARCHS_STANDARD_64_BIT)"
+  },
+  "vendored_frameworks": "Framework/CRIMSDKCore.xcframework"
+}

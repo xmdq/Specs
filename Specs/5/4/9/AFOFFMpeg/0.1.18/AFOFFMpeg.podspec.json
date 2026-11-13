@@ -1,0 +1,154 @@
+{
+  "name": "AFOFFMpeg",
+  "version": "0.1.18",
+  "summary": "decoding.",
+  "description": "Use soft decode to decode video.",
+  "homepage": "https://github.com/PangDuTechnology/AFOFFMpeg.git",
+  "license": "MIT",
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFOFFMpeg.git",
+    "tag": "0.1.18"
+  },
+  "default_subspecs": [
+    "play",
+    "media",
+    "screenshots",
+    "audio",
+    "error",
+    "manager"
+  ],
+  "source_files": "AFOFFMpeg/*.{h,m}",
+  "public_header_files": "AFOFFMpeg/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "VideoToolbox",
+    "CoreMedia",
+    "CoreVideo",
+    "CoreGraphics",
+    "CoreImage",
+    "OpenGLES",
+    "Metal",
+    "MetalKit",
+    "AVFoundation",
+    "AudioToolbox",
+    "Accelerate",
+    "QuartzCore"
+  ],
+  "libraries": [
+    "z",
+    "bz2",
+    "iconv",
+    "c++"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "OTHER_CFLAGS": "$(inherited) -Wno-documentation -Wno-documentation-deprecated-sync -Wno-strict-prototypes -Wno-nullability-completeness",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "dependencies": {
+    "AFOFoundation": [
+
+    ],
+    "AFORouter": [
+
+    ],
+    "AFOUIKIT": [
+
+    ],
+    "AFOGitHub": [
+
+    ],
+    "AFOViews": [
+
+    ],
+    "AFODelegateExtension": [
+
+    ],
+    "AFOFFMpegLib": [
+
+    ],
+    "AFOlibyuv": [
+
+    ],
+    "libxvidcore": [
+      "~> 0.0.4"
+    ],
+    "AFOx264": [
+      "~> 0.1.1"
+    ],
+    "AFOSchedulerCore": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "play",
+      "dependencies": {
+        "AFOFFMpeg/manager": [
+
+        ]
+      },
+      "source_files": "AFOFFMpeg/play/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/play/*.h"
+    },
+    {
+      "name": "media",
+      "dependencies": {
+        "AFOFFMpeg/error": [
+
+        ]
+      },
+      "source_files": "AFOFFMpeg/media/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/media/*.h"
+    },
+    {
+      "name": "screenshots",
+      "dependencies": {
+        "AFOFFMpeg/media": [
+
+        ],
+        "AFOFFMpeg/error": [
+
+        ]
+      },
+      "source_files": "AFOFFMpeg/screenshots/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/screenshots/*.h"
+    },
+    {
+      "name": "audio",
+      "source_files": "AFOFFMpeg/audio/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/audio/*.h"
+    },
+    {
+      "name": "error",
+      "source_files": "AFOFFMpeg/error/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/error/*.h"
+    },
+    {
+      "name": "manager",
+      "dependencies": {
+        "AFOFFMpeg/media": [
+
+        ],
+        "AFOFFMpeg/audio": [
+
+        ]
+      },
+      "source_files": "AFOFFMpeg/manager/*.{h,m}",
+      "public_header_files": "AFOFFMpeg/manager/*.h"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
     "http": "https://d3e51fp79zp4el.cloudfront.net/library/ios/v4.15/helpshift-sdk-ios-v4.15.0.zip"
   },
   "platforms": {
-    "ios": "6.0"
+    "ios": "7.0"
   },
   "source_files": "helpshift-sdk-ios-v4.15.0/Helpshift.h",
   "resources": [

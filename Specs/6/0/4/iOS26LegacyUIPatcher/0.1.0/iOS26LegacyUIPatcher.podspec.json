@@ -1,0 +1,76 @@
+{
+  "name": "iOS26LegacyUIPatcher",
+  "version": "0.1.0",
+  "summary": "UIKit compatibility pod for iOS 26 behavior changes in UIScrollView, UINavigationBar, and UITabBar.",
+  "description": "iOS26LegacyUIPatcher adapts UIKit behavior changes introduced in iOS 26 via Objective-C method swizzling.\n\nIt includes:\n- UIScrollView compatibility (disables scroll-edge visual effect).\n- UINavigationBar compatibility (disables new bar button background-sharing behavior).\n- UITabBar compatibility (disables liquid-glass related view/gesture and restores hidesBottomBarWhenPushed transition behavior with a delegate proxy).\n\nSubspecs:\n- base (main switch, `+[iOS26LegacyUIPatcher enable]`)\n- UIScrollView\n- UINavigationBar\n- UITabBar\n\nBy default, all subspecs are installed. Non-base subspecs depend on RSSwizzle.",
+  "homepage": "https://github.com/liuzhe1117/iOS26LegacyUIPatcher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuzhe1117": "liuzhe1117@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liuzhe1117/iOS26LegacyUIPatcher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "default_subspecs": [
+    "base",
+    "UIScrollView",
+    "UINavigationBar",
+    "UITabBar"
+  ],
+  "subspecs": [
+    {
+      "name": "base",
+      "source_files": "sources/base/**/*.{h,m}",
+      "public_header_files": "sources/base/**/*.h"
+    },
+    {
+      "name": "UIScrollView",
+      "source_files": "sources/UIScrollView/**/*.{h,m}",
+      "public_header_files": "sources/UIScrollView/**/*.h",
+      "dependencies": {
+        "iOS26LegacyUIPatcher/base": [
+
+        ],
+        "RSSwizzle": [
+          "~> 0.1.0"
+        ]
+      }
+    },
+    {
+      "name": "UINavigationBar",
+      "source_files": "sources/UINavigationBar/**/*.{h,m}",
+      "public_header_files": "sources/UINavigationBar/**/*.h",
+      "dependencies": {
+        "iOS26LegacyUIPatcher/base": [
+
+        ],
+        "RSSwizzle": [
+          "~> 0.1.0"
+        ]
+      }
+    },
+    {
+      "name": "UITabBar",
+      "source_files": "sources/UITabBar/**/*.{h,m}",
+      "public_header_files": "sources/UITabBar/**/*.h",
+      "dependencies": {
+        "iOS26LegacyUIPatcher/base": [
+
+        ],
+        "RSSwizzle": [
+          "~> 0.1.0"
+        ]
+      }
+    }
+  ]
+}

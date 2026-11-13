@@ -1,0 +1,35 @@
+{
+  "name": "R89MediationAddonGoogle",
+  "version": "0.0.1-alpha.1",
+  "summary": "Refinery89 mediation Google addon.",
+  "description": "Refinery89 Mediation Google Addon is the Google Mobile Ads backed demand source of the Refinery89 mediation. It implements the AdDemandAdapter contract of R89MediationCoreInterfaces on top of AdMob and Google Ad Manager.",
+  "homepage": "https://refinery89.com/monetize-app-sdk/",
+  "license": {
+    "type": "No License",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ankush Kumar": "ankush@refinery89.com",
+    "Robert Apikyan": "robert.apikyan@refinery89.com"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "http": "https://bitbucket.org/xgn/r89-mediation-demand-sdks-ios/raw/main/mediation-addon-google/0.0.1-alpha.1/R89MediationAddonGoogle.zip"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "R89MediationCoreInterfaces": [
+      "0.0.1-alpha.1"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "~> 12.0"
+    ]
+  },
+  "vendored_frameworks": [
+    "R89MediationAddonGoogle.xcframework"
+  ],
+  "swift_version": "5.0"
+}

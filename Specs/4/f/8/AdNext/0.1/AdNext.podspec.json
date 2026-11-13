@@ -1,0 +1,23 @@
+{
+  "name": "AdNext",
+  "version": "0.1",
+  "summary": "AdNext",
+  "description": "AdNext包",
+  "homepage": "https://gitee.com/WzhGoSky",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hayder": "871708991@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/WzhGoSky/ad-next.git",
+    "tag": "0.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "AdNext.xcframework"
+}

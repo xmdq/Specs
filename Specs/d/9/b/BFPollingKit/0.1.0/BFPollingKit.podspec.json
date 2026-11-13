@@ -1,0 +1,28 @@
+{
+  "name": "BFPollingKit",
+  "version": "0.1.0",
+  "summary": "Adaptive polling engine with boost, normal, power-save and backoff modes.",
+  "description": "BFPollingKit provides a reusable adaptive polling engine for iOS pages.\nIt supports configurable intervals, mode switching, failure backoff, jitter,\nsingle-flight request coordination, and callback hooks for business integration.",
+  "homepage": "https://gitee.com/bfchen/bfpolling-kit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BF": "dev@local.dev"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source": {
+    "git": "https://gitee.com/bfchen/bfpolling-kit.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "Sources/**/*.swift",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "swift_version": "5.0"
+}

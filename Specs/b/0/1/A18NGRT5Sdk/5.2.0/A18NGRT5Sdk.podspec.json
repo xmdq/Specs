@@ -1,0 +1,88 @@
+{
+  "name": "A18NGRT5Sdk",
+  "version": "5.2.0",
+  "summary": "ads ios sdk",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hzsxwl/A18NGRT5Sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3318596470@qq.com": "3318596470@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hzsxwl/A18NGRT5Sdk.git",
+    "tag": "5.2.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "A18NGRT5Sdk/Classes/**/*",
+  "public_header_files": [
+    "A18NGRT5Sdk/Classes/**/ZxcvbnAdsSDK.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnRequest.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnSplash.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnInterstitial.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnReward.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnAdSdk.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnBanner.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnNativeAdView.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnNativeAd.h",
+    "A18NGRT5Sdk/Classes/**/ZxcvbnNativeAdManager.h"
+  ],
+  "vendored_libraries": "A18NGRT5Sdk/Libraries/libA18NGRT5Sdk-iOS.a",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MobileCoreServices",
+    "CoreGraphics",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "AdSupport",
+    "CoreData",
+    "StoreKit",
+    "AVFoundation",
+    "MediaPlayer",
+    "CoreMedia",
+    "WebKit",
+    "Accelerate",
+    "CoreLocation",
+    "AVKit",
+    "MessageUI",
+    "QuickLook",
+    "AudioToolBox",
+    "JavaScriptCore",
+    "CoreMotion",
+    "Photos"
+  ],
+  "libraries": [
+    "z",
+    "resolv.9",
+    "sqlite3",
+    "c++",
+    "c++abi"
+  ],
+  "dependencies": {
+    "ToBid-iOS/GDTAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/BaiduAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/KSAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/TouTiaoAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/CSJMediationAdapter": [
+      "4.7.0"
+    ],
+    "ToBid-iOS/AdScopeAdapter": [
+      "4.7.0"
+    ]
+  },
+  "static_framework": true
+}

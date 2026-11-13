@@ -1,0 +1,63 @@
+{
+  "name": "AFORouter",
+  "version": "0.0.15",
+  "summary": "The router.",
+  "description": "基于 JLRoutes 的应用内路由与页面跳转封装，依赖 AFOFoundation、AFOSchedulerCore。",
+  "homepage": "https://github.com/PangDuTechnology/AFORouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PangDu": "xian312117@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/PangDuTechnology/AFORouter.git",
+    "tag": "0.0.15"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "source_files": [
+    "AFORouter/AFORouter.h",
+    "AFORouter/AFORouting.{h,m}"
+  ],
+  "public_header_files": [
+    "AFORouter/AFORouter.h",
+    "AFORouter/AFORouting.h"
+  ],
+  "default_subspecs": [
+    "router",
+    "manager"
+  ],
+  "dependencies": {
+    "AFOSchedulerCore": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "router",
+      "source_files": "AFORouter/router/*.{h,m}",
+      "public_header_files": "AFORouter/router/*.h"
+    },
+    {
+      "name": "manager",
+      "dependencies": {
+        "AFORouter/router": [
+
+        ],
+        "AFOFoundation": [
+
+        ]
+      },
+      "source_files": "AFORouter/manager/*.{h,m}",
+      "public_header_files": "AFORouter/manager/*.h"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "iOS-Evaluate",
+  "version": "2.0.0",
+  "summary": "A modern, beautiful app review prompt library for iOS 26+.",
+  "description": "iOS-Evaluate is a modern, beautiful app review prompt library for iOS 26+.\nBuilt with SwiftUI gradient design, Swift 6 concurrency, and full\nlocalization support for 30+ languages. Features include gradient buttons,\nanimated star icons, haptic feedback, and both SwiftUI and UIKit integration.",
+  "homepage": "https://github.com/zhanggenlove/iOS-Evaluate",
+  "screenshots": "https://raw.githubusercontent.com/zhanggenlove/iOS-Evaluate/main/Assets/preview.png",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhanggen": "zhanggenlove@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhanggenlove/iOS-Evaluate.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "26.0"
+  },
+  "swift_versions": [
+    "6.2"
+  ],
+  "source_files": "Sources/iOS-Evaluate/**/*.swift",
+  "resources": "Sources/iOS-Evaluate/Resources/**/*.strings",
+  "frameworks": [
+    "UIKit",
+    "StoreKit",
+    "SwiftUI"
+  ],
+  "swift_version": "6.2"
+}

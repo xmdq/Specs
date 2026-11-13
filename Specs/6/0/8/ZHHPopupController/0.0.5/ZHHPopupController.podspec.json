@@ -1,0 +1,24 @@
+{
+  "name": "ZHHPopupController",
+  "version": "0.0.5",
+  "summary": "一个轻量、易用的弹窗控制器",
+  "description": "ZHHPopupController 一个轻量、易用的弹窗控制器，支持弹出/消失动画、布局位置、遮罩（透明/半透明/模糊）、键盘联动、点击/滑动关闭、windowLevel 分层与多弹窗管理等",
+  "homepage": "https://github.com/yue5yueliang/ZHHPopupController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "桃色三岁": "136769890@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yue5yueliang/ZHHPopupController.git",
+    "tag": "0.0.5"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ZHHPopupController/Classes/**/*.{swift,h,m}",
+  "swift_version": "5.0"
+}

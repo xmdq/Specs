@@ -25,8 +25,8 @@
     "*.dSYM"
   ],
   "version": "2.0.0",
-  "documentation_url": "https://inmoment-ios-artifacts.s3.amazonaws.com/InMoment/20180605.000721-d41c2ea/StaticDocs/index.html",
+  "documentation_url": "https://inmoment-ios-artifacts.s3.amazonaws.com/InMoment/Docs/2.0.0/index.html",
   "source": {
-    "http": "https://inmoment-ios-artifacts.s3.amazonaws.com/InMoment/20180605.000721-d41c2ea/InMoment.framework.zip"
+    "http": "https://inmoment-ios-artifacts.s3.amazonaws.com/InMoment/2.0.0/InMoment.framework.zip"
   }
 }

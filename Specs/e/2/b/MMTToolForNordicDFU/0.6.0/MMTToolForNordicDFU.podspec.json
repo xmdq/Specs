@@ -1,0 +1,28 @@
+{
+  "name": "MMTToolForNordicDFU",
+  "version": "0.6.0",
+  "summary": "A short description of MMTToolForNordicDFU.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NealWills/MMTToolForNordicDFU",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NealWills": "Donghn@maxeye.com"
+  },
+  "source": {
+    "git": "https://github.com/NealWills/MMTToolForNordicDFU.git",
+    "tag": "0.6.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MMTToolForNordicDFU/Classes/**/*",
+  "frameworks": "CoreBluetooth",
+  "dependencies": {
+    "ZIPFoundation": [
+
+    ]
+  }
+}

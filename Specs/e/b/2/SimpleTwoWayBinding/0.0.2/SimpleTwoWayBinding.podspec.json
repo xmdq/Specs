@@ -2,7 +2,7 @@
   "name": "SimpleTwoWayBinding",
   "version": "0.0.2",
   "summary": "Ultra light weight and simple two way binding for iOS UIControls.",
-  "description": "Ultra light weight and simple two way binding for UIControls.\nWritten with love and hope in Swift 4.",
+  "description": "Ultra light weight and simple two way binding for UIControls.\nWritten with love and hope in Swift 5.",
   "homepage": "https://github.com/manishkkatoch/SimpleTwoWayBindingIOS",
   "license": {
     "type": "MIT",
@@ -20,5 +20,6 @@
   },
   "source_files": "Sources/**/*",
   "frameworks": "UIKit",
-  "pushed_with_swift_version": "3.2"
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

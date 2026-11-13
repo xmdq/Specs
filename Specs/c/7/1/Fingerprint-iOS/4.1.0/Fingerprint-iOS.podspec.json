@@ -1,0 +1,28 @@
+{
+  "name": "Fingerprint-iOS",
+  "version": "4.1.0",
+  "license": {
+    "type": "Custom",
+    "file": "LICENSE"
+  },
+  "homepage": "https://fingerprint.com/",
+  "authors": {
+    "Fingerprint.com": "support@fingerprint.com"
+  },
+  "summary": "Fingerprint's lightweight device fingerprinting library for iOS",
+  "description": "Fingerprint is a simple wrapper around Fingerprint's API that collects device information\nto uniquely identify iOS devices. The library communicates with the Fingerprint backend to send\ndevice signals (hardware information, available identifiers, OS information and device settings)\nand get a more precise fingerprint in return.",
+  "platforms": {
+    "ios": "14.0",
+    "tvos": "15.0"
+  },
+  "swift_versions": [
+    "5.9",
+    "5.10",
+    "6.0"
+  ],
+  "vendored_frameworks": "Fingerprint.xcframework",
+  "source": {
+    "http": "https://fpjs-public.s3.amazonaws.com/ios/4.1.0/Fingerprint-4.1.0-c78d0de3d8a234c1b16a1ce0e1caa2c54cc297ddf12be8fb7eb1f54fee01fbe5.xcframework.zip"
+  },
+  "swift_version": "6.0"
+}
